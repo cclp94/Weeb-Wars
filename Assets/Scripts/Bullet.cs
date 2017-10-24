@@ -19,5 +19,20 @@ public class Bullet : MonoBehaviour
     public void SetDirection(Vector2 direction)
     {
         mRigidBody2D.velocity = direction * mSpeed;
+        FaceDirection(direction);
+    }
+
+    private void FaceDirection(Vector2 direction)
+    {
+        if (direction == Vector2.right)
+        {
+            Vector3 newScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            transform.localScale = newScale;
+        }
+        else
+        {
+            Vector3 newScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            transform.localScale = newScale;
+        }
     }
 }
