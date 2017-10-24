@@ -10,13 +10,12 @@ public class LifeMeter : MonoBehaviour
 
     SpriteRenderer[] mFilled;
 //    SpriteRenderer[] mEmpty;
-
-    MegaMan mMegaMan;
+    [SerializeField]
+    public MegaMan mMegaMan;
 
     void Start ()
     {
-        mMegaMan = GameObject.Find("Mega Man").GetComponent<MegaMan>();
-        mFilled = transform.FindChild("Filled").GetComponentsInChildren<SpriteRenderer>();
+        mFilled = transform.Find("Filled").GetComponentsInChildren<SpriteRenderer>();
 //        mEmpty = transform.FindChild("Empty").GetComponentsInChildren<SpriteRenderer>();
         mMaxHealth = mFilled.Length;
         mIndex = mFilled.Length - 1;

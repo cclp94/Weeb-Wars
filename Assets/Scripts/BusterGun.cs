@@ -14,12 +14,32 @@ public class BusterGun : MonoBehaviour
     MegaMan mMegaManRef;
 
     AudioSource mBusterSound;
+    SpriteRenderer playerSpriteRenderer;
+
+    Texture2D mColorSwapTex;
+
+    public void InitColorSwapTex()
+    {
+        mColorSwapTex = new Texture2D(1, 1, TextureFormat.RGBA32, false, false);
+        mColorSwapTex.filterMode = FilterMode.Point;
+        mColorSwapTex.SetPixel(0, 0, new Color(1.0f, 0.0f, 0.0f, 0.0f));
+        mColorSwapTex.Apply();
+        playerSpriteRenderer.material.SetTexture("_SwapTex", mColorSwapTex);
+    }
+
+    void SwapColor(Color c)
+    {
+        mColorSwapTex.SetPixel(0, 0, c);
+        mColorSwapTex.Apply();
+    }
 
     void Start ()
     {
         mAnimator = transform.parent.GetComponent<Animator>();
         mMegaManRef = transform.parent.GetComponent<MegaMan>();
+        playerSpriteRenderer = mMegaManRef.GetComponent<SpriteRenderer>();
         mBusterSound = GetComponent<AudioSource>();
+        InitColorSwapTex();
     }
 
     void Update ()

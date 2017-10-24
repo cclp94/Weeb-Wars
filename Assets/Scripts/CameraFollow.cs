@@ -6,7 +6,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     Transform mTarget;
 
-    float kFollowSpeed = 3.5f;
+    float kFollowSpeed = 4.5f;
     float stepOverThreshold = 0.05f;
 
     void Update ()

@@ -43,6 +43,9 @@ public class MegaMan : MonoBehaviour
     GameObject mDeathParticleEmitter;
     [SerializeField]
     LifeMeter life;
+    [SerializeField]
+    Color green;
+   
 
     void Start ()
     {
@@ -67,6 +70,7 @@ public class MegaMan : MonoBehaviour
 
     void Update ()
     {
+
         mRunning = false;
         if(Input.GetButton ("Left"))
         {
@@ -74,7 +78,7 @@ public class MegaMan : MonoBehaviour
             FaceDirection(-Vector2.right);
             mRunning = true;
         }
-        if(Input.GetButton ("Right"))
+        else if(Input.GetButton ("Right"))
         {
             transform.Translate (Vector2.right * mMoveSpeed * Time.deltaTime);
             FaceDirection(Vector2.right);
