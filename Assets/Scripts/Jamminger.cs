@@ -20,7 +20,7 @@ public class Jamminger : MonoBehaviour
     {
         if(col.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            col.GetComponent<MegaMan>().TakeDamage (3);
+            col.GetComponent<WeebPlayer>().TakeDamage (3);
         }
     }
 }

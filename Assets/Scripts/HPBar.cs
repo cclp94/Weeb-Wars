@@ -2,21 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class LifeMeter : MonoBehaviour
+public class HPBar : MonoBehaviour
 {
     [SerializeField]
     int mMaxHealth;
     int mIndex;
 
     SpriteRenderer[] mFilled;
-//    SpriteRenderer[] mEmpty;
     [SerializeField]
-    public MegaMan mMegaMan;
+    public WeebPlayer mWeeb;
 
     void Start ()
     {
-        mFilled = transform.Find("Filled").GetComponentsInChildren<SpriteRenderer>();
-//        mEmpty = transform.FindChild("Empty").GetComponentsInChildren<SpriteRenderer>();
+        mFilled = transform.Find("HP").GetComponentsInChildren<SpriteRenderer>();
         mMaxHealth = mFilled.Length;
         mIndex = mFilled.Length - 1;
     }
@@ -42,8 +40,7 @@ public class LifeMeter : MonoBehaviour
             mIndex--;
             if(mIndex < 0)
             {
-                // Kill Megaman
-                mMegaMan.Die ();
+                mWeeb.Die ();
                 break;
             }
         }
