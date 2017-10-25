@@ -7,7 +7,7 @@ public class DeathZone : MonoBehaviour
     {
         if(col.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            col.GetComponent<WeebPlayer>().TakeDamage (100);
+            col.GetComponent<WeebPlayer>().TakeDamage(100);
         }
     }
 }

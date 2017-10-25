@@ -22,29 +22,30 @@ public class AllienGun : MonoBehaviour
     {
         mColorSwapTex = new Texture2D(1, 1, TextureFormat.RGBA32, false, false);
         mColorSwapTex.filterMode = FilterMode.Point;
-        mColorSwapTex.SetPixel(0, 0, new Color(1.0f, 0.0f, 0.0f, 0.0f));
+        mColorSwapTex.SetPixel(0, 0, new Color(0.0f, 0.0f, 0.0f, 0.0f));
         mColorSwapTex.Apply();
         playerSpriteRenderer.material.SetTexture("_SwapTex", mColorSwapTex);
     }
 
-    void SwapColor(Color c)
+    public void SwapColor(Color c)
     {
         mColorSwapTex.SetPixel(0, 0, c);
         mColorSwapTex.Apply();
     }
 
-    void Start ()
+    void Awake()
     {
         mAnimator = transform.parent.GetComponent<Animator>();
         mWeeb = transform.parent.GetComponent<WeebPlayer>();
         playerSpriteRenderer = mWeeb.GetComponent<SpriteRenderer>();
         mBusterSound = GetComponent<AudioSource>();
         InitColorSwapTex();
+
     }
 
     void Update ()
     {
-        if(Input.GetButtonDown ("Fire") && !mWeeb.IsInvencible())
+        if(Input.GetButtonDown ("Fire") && !mWeeb.IsStunned())
         {
             // Shoot bullet
             GameObject bulletObject = Instantiate (mBulletPrefab, transform.position, Quaternion.identity) as GameObject;
@@ -76,5 +77,10 @@ public class AllienGun : MonoBehaviour
     private void UpdateAnimator()
     {
         mAnimator.SetBool ("isShooting", mShooting);
+    }
+
+    public void changeBulletType(GameObject bullet)
+    {
+        mBulletPrefab = bullet;
     }
 }

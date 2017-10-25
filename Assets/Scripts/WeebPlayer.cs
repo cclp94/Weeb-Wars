@@ -18,9 +18,12 @@ public class WeebPlayer : MonoBehaviour
     bool mRising;
 
     // Invincibility timer
-    float kInvincibilityDuration = 1.0f;
+    float kInvincibilityDuration = 2.0f;
     float mInvincibleTimer;
     bool mInvincible;
+    float kStunnedDuration = 1.0f;
+    float mStunnedTimer;
+    bool mStunned;
 
     // Damage effects
     float kDamagePushForce = 2.5f;
@@ -70,7 +73,7 @@ public class WeebPlayer : MonoBehaviour
 
     void Update ()
     {
-        if (!mInvincible)
+        if (!mStunned)
         {
             mRunning = false;
             if (Input.GetButton("Left"))
@@ -103,6 +106,16 @@ public class WeebPlayer : MonoBehaviour
                 mRigidBody2D.AddForce(Vector2.up * mJumpForce, ForceMode2D.Impulse);
                 mWallKickSound.Play();
             }
+
+            if (mGrounded && Input.GetButtonDown("Switch Right Weapon"))
+            {
+                PlayerUpgradeManager.Instance.ChangeWeaponRight();
+            }
+
+            if (mGrounded && Input.GetButtonDown("Switch Left Weapon"))
+            {
+                PlayerUpgradeManager.Instance.ChangeWeaponLeft();
+            }
         }
 
         mRising = mRigidBody2D.velocity.y > 0.0f;
@@ -115,6 +128,15 @@ public class WeebPlayer : MonoBehaviour
             {
                 mInvincible = false;
                 mInvincibleTimer = 0.0f;
+            }
+        }
+        if (mStunned)
+        {
+            mStunnedTimer += Time.deltaTime;
+            if (mStunnedTimer >= kStunnedDuration)
+            {
+                mStunned = false;
+                mStunnedTimer = 0.0f;
             }
         }
     }
@@ -132,6 +154,7 @@ public class WeebPlayer : MonoBehaviour
             Vector2 forceDirection = new Vector2(-mFacingDirection.x, 1.0f) * kDamagePushForce;
             mRigidBody2D.velocity = Vector2.zero;
             mRigidBody2D.AddForce(forceDirection, ForceMode2D.Impulse);
+            mStunned = true;
             mInvincible = true;
             mTakeDamageSound.Play ();
             life.DeductHealth(dmg);
@@ -175,7 +198,7 @@ public class WeebPlayer : MonoBehaviour
         mAnimator.SetBool ("isRunning", mRunning);
         mAnimator.SetBool ("isGrounded", mGrounded);
         mAnimator.SetBool ("isRising", mRising);
-        mAnimator.SetBool ("isHurt", mInvincible);
+        mAnimator.SetBool ("isHurt", mStunned);
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -203,8 +226,8 @@ public class WeebPlayer : MonoBehaviour
         }
     }
 
-    public bool IsInvencible()
+    public bool IsStunned()
     {
-        return mInvincible;
+        return mStunned;
     }
 }

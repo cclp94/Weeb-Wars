@@ -34,12 +34,16 @@ public class HPBar : MonoBehaviour
 
     public void DeductHealth(int x)
     {
+
         for(int i = 0; i < x; i++)
         {
-            mFilled[mIndex].enabled = false;
-            mIndex--;
-            if(mIndex < 0)
+            if (mIndex >= 0)
             {
+                mFilled[mIndex].enabled = false;
+                mIndex--;
+            }
+            else
+            { 
                 mWeeb.Die ();
                 break;
             }

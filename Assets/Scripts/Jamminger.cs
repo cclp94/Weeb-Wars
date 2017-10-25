@@ -1,26 +1,44 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class Jamminger : MonoBehaviour
+public class Jamminger : Enemy, FollowTarget
 {
     [SerializeField]
-    GameObject mExplosionPrefab;
+    Transform mTarget;
+    [SerializeField]
+    float mFollowSpeed;
+    [SerializeField]
+    float mFollowRange;
 
-    void OnTriggerEnter2D(Collider2D col)
+    float mArriveThreshold = 0.05f;
+
+    void Update()
     {
-        if(col.gameObject.layer == LayerMask.NameToLayer("BusterBullet"))
-        {
-            Destroy (col.gameObject);
-            Destroy (gameObject);
-            Instantiate (mExplosionPrefab, transform.position, Quaternion.identity);
-        }
+        Follow(mTarget);
     }
 
-    void OnTriggerStay2D(Collider2D col)
+    public void SetTarget(Transform target)
     {
-        if(col.gameObject.layer == LayerMask.NameToLayer("Player"))
+        mTarget = target;
+    }
+
+    public void Follow(Transform target)
+    {
+        if (target != null)
         {
-            col.GetComponent<WeebPlayer>().TakeDamage (3);
+            Vector2 direction = target.transform.position - transform.position;
+            if (direction.magnitude <= mFollowRange)
+            {
+                if (direction.magnitude > mArriveThreshold)
+                {
+                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
+                }
+                else
+                {
+                    transform.position = target.transform.position;
+                }
+            }
         }
     }
 }
