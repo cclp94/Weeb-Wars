@@ -7,6 +7,8 @@ public class CameraFollow : MonoBehaviour
     Transform mTarget;
     [SerializeField]
     Transform mDeathZone;
+    [SerializeField]
+    Transform mLeftMostLimit;
 
     float kFollowSpeed = 4.5f;
     float stepOverThreshold = 0.1f;
@@ -15,8 +17,17 @@ public class CameraFollow : MonoBehaviour
     {
         if(mTarget != null)
         {
-            Vector3 targetPosition = new Vector3(mTarget.transform.position.x,(mTarget.transform.position.y > mDeathZone.position.y)? mTarget.transform.position.y : transform.position.y, transform.position.z);
+            Debug.Log("Camera x: " + transform.position.x);
+            Debug.Log("left most x: " + mLeftMostLimit.transform.position.x);
+            Vector3 targetPosition = new Vector3(mTarget.transform.position.x,transform.position.y, transform.position.z);
             Vector3 direction = targetPosition - transform.position;
+            Debug.Log("Direction x: " + direction.x);
+            if (direction.x < 0 && !(transform.position.x - 6.0f > mLeftMostLimit.position.x))
+            {
+                Debug.Log("Here");
+                targetPosition.x = transform.position.x;
+                direction = targetPosition - transform.position;
+            }
 
             if(direction.magnitude > stepOverThreshold)
             {
