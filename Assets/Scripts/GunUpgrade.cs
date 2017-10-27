@@ -30,16 +30,27 @@ public class GunUpgrade : MonoBehaviour {
 
     private void FaceDirection(Vector2 direction)
     {
-        if (direction == Vector2.right)
+        float angle = 0;
+        if (direction.x >= 0)
         {
+            angle = Vector2.Angle(Vector2.right, direction);
             Vector3 newScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            transform.localScale = newScale;
         }
         else
         {
+            angle = Vector2.Angle(Vector2.left, direction);
             Vector3 newScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             transform.localScale = newScale;
         }
+        if (direction.y >= 0)
+        {
+            transform.Rotate(Vector3.forward, angle);
+        }
+        else
+        {
+            transform.Rotate(Vector3.forward, -angle);
+        }
+        
     }
 
     public float GetDamage()

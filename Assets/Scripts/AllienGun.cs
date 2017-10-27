@@ -6,6 +6,8 @@ public class AllienGun : MonoBehaviour
     Animator mAnimator;
     bool mShooting;
 
+    Vector2 bDirection;
+
     float kShootDuration = 0.25f;
     float mTime;
 
@@ -49,10 +51,27 @@ public class AllienGun : MonoBehaviour
         {
             // Shoot bullet
             GameObject bulletObject = Instantiate (mBulletPrefab, transform.position, Quaternion.identity) as GameObject;
-            LaserBullet bullet = bulletObject.GetComponent<LaserBullet>();
+            GunUpgrade bullet = bulletObject.GetComponent<GunUpgrade>();
+            Vector2 facingDirection = mWeeb.GetFacingDirection();
+
+            Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            bDirection = cursorPos - (Vector2)transform.position;
+            bDirection.Normalize();
+            Debug.Log(bDirection.x + ", " + bDirection.y);
+            Debug.Log(facingDirection.x + ", " + facingDirection.y);
+            if (bDirection.x < 0 && facingDirection == Vector2.right)
+            {
+                if (bDirection.y > 0.0f) bDirection = Vector2.up;
+                else bDirection = Vector2.down;
+            }
+            else if (bDirection.x > 0 && facingDirection == Vector2.left)
+            {
+                if (bDirection.y > 0.0f) bDirection = Vector2.up;
+                else bDirection = Vector2.down;
+            }
 
             // Set direction of bullet
-            bullet.SetDirection(mWeeb.GetFacingDirection());
+            bullet.SetDirection(bDirection);
 
             // Set animation params
             mShooting = true;

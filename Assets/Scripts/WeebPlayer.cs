@@ -75,6 +75,7 @@ public class WeebPlayer : MonoBehaviour
     {
         if (!mStunned)
         {
+
             mRunning = false;
             if (Input.GetButton("Left"))
             {
