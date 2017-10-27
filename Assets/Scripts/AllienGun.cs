@@ -47,9 +47,10 @@ public class AllienGun : MonoBehaviour
 
     void Update ()
     {
-        if(Input.GetButtonDown ("Fire") && !mWeeb.IsStunned())
+        if(Input.GetButtonDown ("Fire") && !mWeeb.IsStunned() && mBulletPrefab.GetComponent<GunUpgrade>().canInstatiateNewBullet())
         {
             // Shoot bullet
+
             GameObject bulletObject = Instantiate (mBulletPrefab, transform.position, Quaternion.identity) as GameObject;
             GunUpgrade bullet = bulletObject.GetComponent<GunUpgrade>();
             Vector2 facingDirection = mWeeb.GetFacingDirection();
@@ -57,17 +58,15 @@ public class AllienGun : MonoBehaviour
             Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             bDirection = cursorPos - (Vector2)transform.position;
             bDirection.Normalize();
-            Debug.Log(bDirection.x + ", " + bDirection.y);
-            Debug.Log(facingDirection.x + ", " + facingDirection.y);
             if (bDirection.x < 0 && facingDirection == Vector2.right)
             {
-                if (bDirection.y > 0.0f) bDirection = Vector2.up;
-                else bDirection = Vector2.down;
+                if (bDirection.y > 0.0f) bDirection = Rotate(Vector2.up, -30);
+                else bDirection = Rotate(Vector2.down, 30);
             }
             else if (bDirection.x > 0 && facingDirection == Vector2.left)
             {
-                if (bDirection.y > 0.0f) bDirection = Vector2.up;
-                else bDirection = Vector2.down;
+                if (bDirection.y > 0.0f) bDirection = Rotate(Vector2.up, 30);
+                else bDirection = Rotate(Vector2.down, -30);
             }
 
             // Set direction of bullet
@@ -102,4 +101,15 @@ public class AllienGun : MonoBehaviour
     {
         mBulletPrefab = bullet;
     }
+	public Vector2 Rotate(Vector2 v, float degrees)
+	{
+		float sin = Mathf.Sin(degrees * Mathf.Deg2Rad);
+		float cos = Mathf.Cos(degrees * Mathf.Deg2Rad);
+
+		float tx = v.x;
+		float ty = v.y;
+		v.x = (cos * tx) - (sin * ty);
+		v.y = (sin * tx) + (cos * ty);
+		return v;
+	}
 }

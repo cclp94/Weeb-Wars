@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class GunUpgrade : MonoBehaviour {
     [SerializeField]
-    float mSpeed;
+    float mSpeed= 5;
     [SerializeField]
     Sprite weaponIcon;
     [SerializeField]
     Color mGunColor;
     [SerializeField]
     float mDamage = 1;
+	[SerializeField]
+	float mMaxBullets = 1;
     Rigidbody2D mRigidBody2D;
 
     void Awake()
@@ -35,27 +37,39 @@ public class GunUpgrade : MonoBehaviour {
         {
             angle = Vector2.Angle(Vector2.right, direction);
             Vector3 newScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+			if (direction.y >= 0)
+				transform.Rotate(Vector3.forward, angle);
+			else
+				transform.Rotate(Vector3.forward, -angle);
         }
         else
         {
             angle = Vector2.Angle(Vector2.left, direction);
             Vector3 newScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             transform.localScale = newScale;
+			if (direction.y >= 0)
+				transform.Rotate(Vector3.forward, -angle);
+			else
+				transform.Rotate(Vector3.forward, angle);
         }
-        if (direction.y >= 0)
-        {
-            transform.Rotate(Vector3.forward, angle);
-        }
-        else
-        {
-            transform.Rotate(Vector3.forward, -angle);
-        }
+
         
     }
+
+     virtual public void Collide(GameObject enemy){
+		enemy.GetComponent<Enemy>().TakeHealth(GetDamage());
+        Destroy(this.gameObject);
+	}
 
     public float GetDamage()
     {
         return mDamage;
+    }
+    public bool canInstatiateNewBullet(){
+        if(GameObject.FindGameObjectsWithTag("DamagingBullet").Length < mMaxBullets){
+            return true;
+        }
+        return false;
     }
 
     public Sprite GetWeaponIcon()
