@@ -11,6 +11,12 @@ public class WeebPlayer : MonoBehaviour
     [SerializeField]
     LayerMask mWhatIsGround;
     float kGroundCheckRadius = 0.1f;
+	[SerializeField]
+	GameObject mDeathParticleEmitter;
+	[SerializeField]
+	HPBar life;
+	[SerializeField]
+	Color green;
 
     // Animator booleans
     bool mRunning;
@@ -39,17 +45,8 @@ public class WeebPlayer : MonoBehaviour
 
     // Reference to audio sources
     AudioSource mLandingSound;
-    AudioSource mWallKickSound;
     AudioSource mTakeDamageSound;
-
-    [SerializeField]
-    GameObject mDeathParticleEmitter;
-    [SerializeField]
-    HPBar life;
-    [SerializeField]
-    Color green;
    
-
     void Start ()
     {
         // Get references to other components and game objects
@@ -63,12 +60,12 @@ public class WeebPlayer : MonoBehaviour
         {
             mGroundCheckList.Add (g);
         }
+        mFacingDirection = Vector2.right;
 
         // Get audio references
         AudioSource[] audioSources = GetComponents<AudioSource>();
         mLandingSound = audioSources[0];
-        mWallKickSound = audioSources[1];
-        mTakeDamageSound = audioSources[2];
+        mTakeDamageSound = audioSources[1];
     }
 
     void Update ()
@@ -100,12 +97,6 @@ public class WeebPlayer : MonoBehaviour
             if (mGrounded && Input.GetButtonDown("Jump"))
             {
                 mRigidBody2D.AddForce(Vector2.up * mJumpForce, ForceMode2D.Impulse);
-            }
-            else if (mAllowWallKick && Input.GetButtonDown("Jump"))
-            {
-                mRigidBody2D.velocity = Vector2.zero;
-                mRigidBody2D.AddForce(Vector2.up * mJumpForce, ForceMode2D.Impulse);
-                mWallKickSound.Play();
             }
 
             if (mGrounded && Input.GetButtonDown("Switch Right Weapon"))
@@ -230,5 +221,9 @@ public class WeebPlayer : MonoBehaviour
     public bool IsStunned()
     {
         return mStunned;
+    }
+
+    public void ResetGravity(){
+        mRigidBody2D.velocity = new Vector2(mRigidBody2D.velocity.x, 0.0f);
     }
 }
