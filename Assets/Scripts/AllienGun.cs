@@ -47,7 +47,8 @@ public class AllienGun : MonoBehaviour
 
     void Update ()
     {
-        if(Input.GetButtonDown ("Fire") && !mWeeb.IsStunned() && mBulletPrefab.GetComponent<GunUpgrade>().canInstatiateNewBullet())
+        transform.rotation.Set(0.0f, 0.0f, 0.0f, transform.rotation.w);
+        if (Input.GetButtonDown ("Fire") && !mWeeb.IsStunned() && mBulletPrefab.GetComponent<GunUpgrade>().canInstatiateNewBullet())
         {
             // Shoot bullet
 
@@ -58,21 +59,29 @@ public class AllienGun : MonoBehaviour
             Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             bDirection = cursorPos - (Vector2)transform.position;
             bDirection.Normalize();
-            if (bDirection.x < 0 && facingDirection == Vector2.right)
+            if (bDirection.x < 0 && facingDirection == Vector2.right || (bDirection.x > 0 && facingDirection == Vector2.left))
             {
-                if (bDirection.y > 0.0f) bDirection = Rotate(Vector2.up, -30);
-                else bDirection = Rotate(Vector2.down, 30);
+                bDirection = facingDirection;
             }
-            else if (bDirection.x > 0 && facingDirection == Vector2.left)
+            /*else if (bDirection.x > 0 && facingDirection == Vector2.left)
             {
                 if (bDirection.y > 0.0f) bDirection = Rotate(Vector2.up, 30);
                 else bDirection = Rotate(Vector2.down, -30);
-            }
+            }*/
 
             // Set direction of bullet
             bullet.SetDirection(bDirection);
+            /*Debug.Log(Vector2.Angle(cursorPos, (Vector2)transform.position));
+            if(bDirection.y > 0)
+            {
+                transform.Rotate(Vector3.forward, Vector2.Angle((Vector2)transform.position, cursorPos) * 2 * 3.14f);
+            }
+            else
+            {
+                transform.Rotate(Vector3.forward, -Vector2.Angle((Vector2)transform.position, cursorPos)*2*3.14f);
+            }*/
 
-            // Set animation params
+            // Set animation paramsd 
             mShooting = true;
             mTime = 0.0f;
 
