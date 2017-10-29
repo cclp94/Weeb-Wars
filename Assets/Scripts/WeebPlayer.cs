@@ -13,7 +13,9 @@ public class WeebPlayer : MonoBehaviour
     float kGroundCheckRadius = 0.1f;
 	[SerializeField]
 	GameObject mDeathParticleEmitter;
-	[SerializeField]
+    [SerializeField]
+    GameObject mDustParticleEmitter;
+    [SerializeField]
 	HPBar life;
 	[SerializeField]
 	Color green;
@@ -97,14 +99,15 @@ public class WeebPlayer : MonoBehaviour
             if (mGrounded && Input.GetButtonDown("Jump"))
             {
                 mRigidBody2D.AddForce(Vector2.up * mJumpForce, ForceMode2D.Impulse);
+                Instantiate(mDustParticleEmitter, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z), Quaternion.identity);
             }
 
-            if (mGrounded && Input.GetButtonDown("Switch Right Weapon"))
+            if (Input.GetButtonDown("Switch Right Weapon"))
             {
                 PlayerUpgradeManager.Instance.ChangeWeaponRight();
             }
 
-            if (mGrounded && Input.GetButtonDown("Switch Left Weapon"))
+            if (Input.GetButtonDown("Switch Left Weapon"))
             {
                 PlayerUpgradeManager.Instance.ChangeWeaponLeft();
             }
