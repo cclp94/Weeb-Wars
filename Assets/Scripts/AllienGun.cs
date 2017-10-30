@@ -16,6 +16,7 @@ public class AllienGun : MonoBehaviour
     WeebPlayer mWeeb;
 
     AudioSource mBusterSound;
+    [SerializeField]
     SpriteRenderer playerSpriteRenderer;
 
     Texture2D mColorSwapTex;
@@ -24,13 +25,15 @@ public class AllienGun : MonoBehaviour
     {
         mColorSwapTex = new Texture2D(1, 1, TextureFormat.RGBA32, false, false);
         mColorSwapTex.filterMode = FilterMode.Point;
-        mColorSwapTex.SetPixel(0, 0, new Color(0.0f, 0.0f, 0.0f, 0.0f));
+        //mColorSwapTex.SetPixel(0, 0, new Color(0.0f, 0.0f, 0.0f, 0.0f));
         mColorSwapTex.Apply();
         playerSpriteRenderer.material.SetTexture("_SwapTex", mColorSwapTex);
     }
 
     public void SwapColor(Color c)
     {
+        if (mColorSwapTex == null)
+            InitColorSwapTex();
         mColorSwapTex.SetPixel(0, 0, c);
         mColorSwapTex.Apply();
     }
@@ -42,11 +45,13 @@ public class AllienGun : MonoBehaviour
         playerSpriteRenderer = mWeeb.GetComponent<SpriteRenderer>();
         mBusterSound = GetComponent<AudioSource>();
         InitColorSwapTex();
-
+        PlayerUpgradeManager.Instance.InitManager();
     }
 
     void Update ()
     {
+        if (Time.timeScale == 0)
+            return;
         transform.rotation.Set(0.0f, 0.0f, 0.0f, transform.rotation.w);
         if (Input.GetButtonDown ("Fire") && !mWeeb.IsStunned() && mBulletPrefab.GetComponent<GunUpgrade>().canInstatiateNewBullet())
         {

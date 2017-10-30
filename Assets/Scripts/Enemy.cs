@@ -13,9 +13,7 @@ public class Enemy : MonoBehaviour {
     {
         if (col.gameObject.tag == "DamagingBullet")
         {
-            col.GetComponent<GunUpgrade>().Collide(this.gameObject);
-            //TakeHealth(col.GetComponent<GunUpgrade>().GetDamage());
-            //Destroy(col.gameObject);         
+            col.GetComponent<GunUpgrade>().Collide(this.gameObject);   
         }
     }
 
@@ -30,10 +28,14 @@ public class Enemy : MonoBehaviour {
     public void TakeHealth(float dam)
     {
         hp -= dam;
-        if(hp <= 0)
-        {
-            Destroy(gameObject);
-            Instantiate(mExplosionPrefab, transform.position, Quaternion.identity);
-        }
+        if (hp <= 0)
+            Die();
     }
+
+    virtual public void Die()
+    {
+        Destroy(gameObject);
+        Instantiate(mExplosionPrefab, transform.position, Quaternion.identity);
+    }
+
 }

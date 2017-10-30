@@ -24,6 +24,7 @@ public class WeebPlayer : MonoBehaviour
     bool mRunning;
     bool mGrounded;
     bool mRising;
+    bool mDashing;
 
     // Invincibility timer
     float kInvincibilityDuration = 2.0f;
@@ -35,9 +36,6 @@ public class WeebPlayer : MonoBehaviour
 
     // Damage effects
     float kDamagePushForce = 2.5f;
-
-    // Wall kicking
-    bool mAllowWallKick;
     Vector2 mFacingDirection;
 
     // References to other components and game objects
@@ -70,16 +68,45 @@ public class WeebPlayer : MonoBehaviour
         mTakeDamageSound = audioSources[1];
     }
 
+    float dashStartTime = 0;
+    bool weebJumpped = false;
     void Update ()
     {
+        if (Time.timeScale == 0)
+            return;
         if (!mStunned)
         {
-
             mRunning = false;
+            if(mDashing && Time.time - dashStartTime >= 0.2 ||
+                (mFacingDirection == Vector2.left && Input.GetButton("Right")) ||
+                (mFacingDirection == Vector2.right && Input.GetButton("Left")))
+            { 
+                if (!weebJumpped)
+                {
+                    // Reset velocity
+                    mRigidBody2D.velocity = Vector3.zero;
+                    mRigidBody2D.angularVelocity = 0;
+                }else
+                {
+                    weebJumpped = false;
+                    dashStartTime = Time.time;
+                }
+                mDashing = false;
+            }
+
+            bool grounded = CheckGrounded();
+            if (!mGrounded && grounded)
+            {
+                mLandingSound.Play();
+                // Reset velocity
+                mRigidBody2D.velocity = Vector3.zero;
+                mRigidBody2D.angularVelocity = 0;
+            }
+            mGrounded = grounded;
             if (Input.GetButton("Left"))
             {
-                transform.Translate(-Vector2.right * mMoveSpeed * Time.deltaTime);
-                FaceDirection(-Vector2.right);
+                transform.Translate(Vector2.left * mMoveSpeed * Time.deltaTime);
+                FaceDirection(Vector2.left);
                 mRunning = true;
             }
             else if (Input.GetButton("Right"))
@@ -89,17 +116,18 @@ public class WeebPlayer : MonoBehaviour
                 mRunning = true;
             }
 
-            bool grounded = CheckGrounded();
-            if (!mGrounded && grounded)
-            {
-                mLandingSound.Play();
-            }
-            mGrounded = grounded;
-
             if (mGrounded && Input.GetButtonDown("Jump"))
             {
                 mRigidBody2D.AddForce(Vector2.up * mJumpForce, ForceMode2D.Impulse);
-                Instantiate(mDustParticleEmitter, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z), Quaternion.identity);
+                weebJumpped = true;
+                //Instantiate(mDustParticleEmitter, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z), Quaternion.identity);
+            }
+
+            if (mGrounded && Input.GetButtonDown("Dash") && Time.time - dashStartTime >= 1)
+            {
+                mRigidBody2D.AddForce(GetFacingDirection() * 7, ForceMode2D.Impulse);
+                dashStartTime = Time.time;
+                mDashing = true;
             }
 
             if (Input.GetButtonDown("Switch Right Weapon"))
@@ -111,6 +139,7 @@ public class WeebPlayer : MonoBehaviour
             {
                 PlayerUpgradeManager.Instance.ChangeWeaponLeft();
             }
+        
         }
 
         mRising = mRigidBody2D.velocity.y > 0.0f;
@@ -194,31 +223,16 @@ public class WeebPlayer : MonoBehaviour
         mAnimator.SetBool ("isGrounded", mGrounded);
         mAnimator.SetBool ("isRising", mRising);
         mAnimator.SetBool ("isHurt", mStunned);
+        mAnimator.SetBool("isDashing", mDashing);
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.collider.gameObject.layer == LayerMask.NameToLayer("Level"))
-        {
-            ContactPoint2D[] contactPoints = col.contacts;
-            foreach(ContactPoint2D p in contactPoints)
-            {
-                float angleDifference = Vector2.Angle(p.normal, Vector2.right);
-                if(angleDifference < 5.0f || angleDifference > 175.0f)
-                {
-                    mAllowWallKick = true;
-                    return;
-                }
-            }
-        }
+        
     }
 
     void OnCollisionExit2D(Collision2D col)
     {
-        if(col.collider.gameObject.layer == LayerMask.NameToLayer("Level"))
-        {
-            mAllowWallKick = false;
-        }
     }
 
     public bool IsStunned()
@@ -228,5 +242,10 @@ public class WeebPlayer : MonoBehaviour
 
     public void ResetGravity(){
         mRigidBody2D.velocity = new Vector2(mRigidBody2D.velocity.x, 0.0f);
+    }
+
+    public void unlockWeaponUpgrade(string name)
+    {
+        PlayerUpgradeManager.Instance.unlockWeapon(name);
     }
 }

@@ -65,6 +65,7 @@ public class GunUpgrade : MonoBehaviour {
     {
         return mDamage;
     }
+
     public bool canInstatiateNewBullet(){
         if(GameObject.FindGameObjectsWithTag("DamagingBullet").Length < mMaxBullets){
             return true;

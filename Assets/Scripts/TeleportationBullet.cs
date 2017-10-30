@@ -30,7 +30,7 @@ public class TeleportationBullet : GunUpgrade {
             }else if(currentState == TeleportState.NONE){
 				GameObject player = GameObject.FindGameObjectWithTag("Player");
 				player.transform.position = transform.position;
-
+                player.GetComponent<WeebPlayer>().ResetGravity();
 				Destroy(this.gameObject);
             }
         }
@@ -44,6 +44,10 @@ public class TeleportationBullet : GunUpgrade {
             //GameObject player = GameObject.FindGameObjectWithTag("Player");
             //player.GetComponent<WeebPlayer>().ResetGravity();
             //player.transform.position = transform.position;
+            Destroy(this.gameObject);
+        }else if(col.gameObject.tag == "MovableObject") {
+            currentState = TeleportState.HIT_ENEMY;
+            teletransportTarget = col.gameObject;
             Destroy(this.gameObject);
         }
 
