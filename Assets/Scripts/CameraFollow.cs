@@ -13,11 +13,13 @@ public class CameraFollow : MonoBehaviour
     float kFollowSpeed = 4.5f;
     float stepOverThreshold = 0.1f;
 
-    void Update ()
+    Vector3 originalPos;
+
+    void Update()
     {
-        if(mTarget != null)
+        if (mTarget != null)
         {
-            Vector3 targetPosition = new Vector3(mTarget.transform.position.x,transform.position.y, transform.position.z);
+            Vector3 targetPosition = new Vector3(mTarget.transform.position.x, transform.position.y, transform.position.z);
             Vector3 direction = targetPosition - transform.position;
             if (direction.x < 0 && !(transform.position.x - 1.0f > mLeftMostLimit.position.x))
             {
@@ -25,9 +27,9 @@ public class CameraFollow : MonoBehaviour
                 direction = targetPosition - transform.position;
             }
 
-            if(direction.magnitude > stepOverThreshold)
+            if (direction.magnitude > stepOverThreshold)
             {
-                transform.Translate (direction * kFollowSpeed * Time.deltaTime);
+                transform.Translate(direction * kFollowSpeed * Time.deltaTime);
             }
             else
             {
@@ -35,5 +37,6 @@ public class CameraFollow : MonoBehaviour
                 transform.position = targetPosition;
             }
         }
+
     }
 }

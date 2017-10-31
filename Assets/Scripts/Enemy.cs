@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour {
         }
     }
 
-    void OnTriggerStay2D(Collider2D col)
+    virtual public void OnTriggerStay2D(Collider2D col)
     {
         if (col.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
