@@ -14,7 +14,7 @@ public class MovableObject : MonoBehaviour {
         currentDamage = 0;
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    virtual public void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "DamagingBullet" && breakDamage != -1)
         {

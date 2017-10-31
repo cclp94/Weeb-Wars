@@ -15,6 +15,8 @@ public class Titan : Enemy {
     float mDownSpeed;
     [SerializeField]
     CameraShake camera;
+    [SerializeField]
+    GameObject fallingObjectPrefab;
 
     private Vector3 restPositionRight;
     private Vector3 restPositionLeft;
@@ -29,6 +31,7 @@ public class Titan : Enemy {
         upPositionRight.Set(restPositionRight.x, restPositionRight.y + 4.0f, restPositionRight.z);
         upPositionLeft.Set(restPositionLeft.x, restPositionLeft.y + 4.0f, restPositionLeft.z);
     }
+
     bool mUpDirection;
 	// Update is called once per frame
 	void Update () {
@@ -51,7 +54,8 @@ public class Titan : Enemy {
         {
             if (!mUpDirection)
             {
-                camera.Shake(1);
+                camera.Shake(0.7f);
+                fallBoulders();
             }
             mUpDirection = !mUpDirection;
         }
@@ -63,6 +67,12 @@ public class Titan : Enemy {
         leftHand.transform.Translate(targetLeft * Time.deltaTime * acceleration);
     }
 
+    public void fallBoulders(){
+        for (int i = 0; i < 3; i++){
+            Instantiate(fallingObjectPrefab, new Vector3(transform.position.x + (4.0f) - (1.0f * i) * UnityEngine.Random.Range(1, 2.5f), transform.position.y + 6.0f, transform.position.z), Quaternion.identity);
+        }
+    }
+
 
     override public void OnTriggerStay2D(Collider2D col)
     {
@@ -70,5 +80,9 @@ public class Titan : Enemy {
         {
             col.GetComponent<WeebPlayer>().TakeDamage(5);
         }
+    }
+
+    public bool IsFalling(){
+        return !mUpDirection;
     }
 }
