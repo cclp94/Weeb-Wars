@@ -12,7 +12,7 @@ public class CameraFollow : MonoBehaviour
 
     bool facing = true;
 
-    float smoothness = 1.3f;
+    float smoothness = 1.0f;
     float stepOverThreshold = 0.1f;
 
     Vector3 originalPos;
@@ -36,7 +36,7 @@ public class CameraFollow : MonoBehaviour
 =======*/
             if (mTarget.GetComponent<WeebPlayer>().GetFacingDirection() == Vector2.right)
             {
-                Vector3 targetPosition = new Vector3(mTarget.transform.position.x + 5.0f, mTarget.transform.position.y, transform.position.z);
+                Vector3 targetPosition = new Vector3(mTarget.transform.position.x + 5.0f, mTarget.transform.position.y+1.5f, transform.position.z);
                 Vector3 direction = targetPosition - transform.position;
                 transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
             }
@@ -44,13 +44,13 @@ public class CameraFollow : MonoBehaviour
             {
                 if (mTarget.transform.position.x - 1.0f < mLeftMostLimit.position.x)
                 {
-                    Vector3 targetPosition = new Vector3(mTarget.transform.position.x, mTarget.transform.position.y, transform.position.z);
+                    Vector3 targetPosition = new Vector3(mTarget.transform.position.x, mTarget.transform.position.y + 1.5f, transform.position.z);
                     Vector3 direction = targetPosition - transform.position;
                     transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
                 }
                 else
                 {
-                    Vector3 targetPosition = new Vector3(mTarget.transform.position.x - 5.0f, mTarget.transform.position.y, transform.position.z);
+                    Vector3 targetPosition = new Vector3(mTarget.transform.position.x - 5.0f, mTarget.transform.position.y + 1.5f, transform.position.z);
                     Vector3 direction = targetPosition - transform.position;
                     transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
                 }

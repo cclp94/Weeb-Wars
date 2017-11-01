@@ -17,8 +17,6 @@ public class WeebPlayer : MonoBehaviour
     GameObject mDustParticleEmitter;
     [SerializeField]
 	HPBar life;
-	[SerializeField]
-	Color green;
 
     // Animator booleans
     bool mRunning;
@@ -46,7 +44,10 @@ public class WeebPlayer : MonoBehaviour
     // Reference to audio sources
     AudioSource mLandingSound;
     AudioSource mTakeDamageSound;
-   
+    AudioSource mRunningSound;
+    AudioSource mDashSound;
+    AudioSource mJumpSound;
+
     void Start ()
     {
         // Get references to other components and game objects
@@ -66,6 +67,9 @@ public class WeebPlayer : MonoBehaviour
         AudioSource[] audioSources = GetComponents<AudioSource>();
         mLandingSound = audioSources[0];
         mTakeDamageSound = audioSources[1];
+        mRunningSound = audioSources[2];
+        mDashSound = audioSources[3];
+        mJumpSound = audioSources[4];
     }
 
     float dashStartTime = 0;
@@ -119,7 +123,12 @@ public class WeebPlayer : MonoBehaviour
             if (mGrounded && Input.GetButtonDown("Jump"))
             {
                 mRigidBody2D.AddForce(Vector2.up * mJumpForce, ForceMode2D.Impulse);
+                mJumpSound.Play();
                 weebJumpped = true;
+                if (mRunningSound.isPlaying)
+                {
+                    mRunningSound.Stop();
+                }
                 //Instantiate(mDustParticleEmitter, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z), Quaternion.identity);
             }
 
@@ -128,6 +137,7 @@ public class WeebPlayer : MonoBehaviour
                 mRigidBody2D.AddForce(GetFacingDirection() * 7, ForceMode2D.Impulse);
                 dashStartTime = Time.time;
                 mDashing = true;
+                mDashSound.Play();
             }
 
             if (Input.GetButtonDown("Switch Right Weapon"))
@@ -139,7 +149,20 @@ public class WeebPlayer : MonoBehaviour
             {
                 PlayerUpgradeManager.Instance.ChangeWeaponLeft();
             }
-        
+
+            if (mRunning && mGrounded && !mDashing)
+            {
+                if (!mRunningSound.isPlaying)
+                {
+                    mRunningSound.loop = true;
+                    mRunningSound.Play();
+                }
+            }
+            else
+            {
+                mRunningSound.Stop();
+            }
+
         }
 
         mRising = mRigidBody2D.velocity.y > 0.0f;

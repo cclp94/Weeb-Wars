@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour {
-
-    [SerializeField]
-    GameObject mExplosionPrefab;
+public class Enemy : MonoBehaviour { 
     [SerializeField]
     float hp = 1;
 
@@ -35,7 +32,6 @@ public class Enemy : MonoBehaviour {
     virtual public void Die()
     {
         Destroy(gameObject);
-        Instantiate(mExplosionPrefab, transform.position, Quaternion.identity);
     }
 
 }

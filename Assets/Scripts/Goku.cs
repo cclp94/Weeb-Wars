@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Goku : Enemy {
+public class Goku : Enemy
+{
 
     [SerializeField]
     Transform mTarget;
@@ -22,13 +23,18 @@ public class Goku : Enemy {
 
     float attackTimer;
 
-	// Use this for initialization
-	void Start () {
+    public AudioClip damage;
+    private AudioSource source;
+
+    // Use this for initialization
+    void Start()
+    {
         gAnimator = GetComponent<Animator>();
-	}
-	
-	// Update is called once per frame
-	void Update ()
+        source = GetComponent<AudioSource>();
+    }
+
+    // Update is called once per frame
+    void Update()
     {
         attackTimer += Time.deltaTime;
         //UpdateAnimator();
@@ -71,8 +77,8 @@ public class Goku : Enemy {
             attacking = false;
             flying = false;
         }
-		
-	}
+
+    }
 
     private void UpdateAnimator()
     {
@@ -121,6 +127,7 @@ public class Goku : Enemy {
 
             TakeHealth(4);
             Destroy(col.gameObject);
+            source.PlayOneShot(damage, 1F);
         }
     }
 }
