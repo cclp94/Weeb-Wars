@@ -6,35 +6,52 @@ public class Button : MonoBehaviour {
 
     [SerializeField]
     GameObject gate;
+    [SerializeField]
+    Sprite on;
+    [SerializeField]
+    Sprite off;
+    [SerializeField]
+    float down;
+    [SerializeField]
+    float waitTime;
 
-    //[SerializeField]
-    //Animation down;
-
+    private bool isPushed;
+    private float timer;
     private Gate gateScript;
     private string colTag;
 
     void Awake()
     {
         gateScript = gate.GetComponent<Gate>();
-        //down = GetComponent<Animation>();
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    private void Update()
     {
-        colTag = col.gameObject.tag;
-        if ((colTag == "MovableObject" || colTag == "Player") && col.transform.position.y > transform.position.y)
+        timer = timer + Time.deltaTime;
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if ((col.tag == "MovableObject" || col.tag == "Player") && !isPushed && timer > waitTime)
         {
+            transform.position = transform.position - new Vector3(0.0f, down, 0.0f);
+            GetComponent<SpriteRenderer>().sprite = on;
+            isPushed = true;
+            timer = 0.0f;
             gateScript.OpenGate();
-            //down.Play();
         }
     }
 
-    void OnCollisionExit2D(Collision2D col)
+    void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.tag == "MovableObject" || colTag == "Player")
+        if ((col.tag == "MovableObject" || col.tag == "Player") && isPushed && timer > waitTime)
         {
+            Debug.Log(timer);
+            transform.position = transform.position + new Vector3(0.0f, down, 0.0f);
+            GetComponent<SpriteRenderer>().sprite = off;
+            isPushed = false;
+            timer = 0.0f;
             gateScript.CloseGate();
-            //down.Play();
         }
     }
 
