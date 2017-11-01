@@ -2,14 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour {
-
-    [SerializeField]
-    GameObject mExplosionPrefab;
+public class Enemy : MonoBehaviour { 
     [SerializeField]
     float hp = 1;
 
-    void OnTriggerEnter2D(Collider2D col)
+    virtual public void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "DamagingBullet")
         {
@@ -17,7 +14,7 @@ public class Enemy : MonoBehaviour {
         }
     }
 
-    void OnTriggerStay2D(Collider2D col)
+    virtual public void OnTriggerStay2D(Collider2D col)
     {
         if (col.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
@@ -35,7 +32,6 @@ public class Enemy : MonoBehaviour {
     virtual public void Die()
     {
         Destroy(gameObject);
-        Instantiate(mExplosionPrefab, transform.position, Quaternion.identity);
     }
 
 }
