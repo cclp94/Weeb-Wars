@@ -10,14 +10,19 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     Transform mLeftMostLimit;
 
-    float kFollowSpeed = 4.5f;
+    bool facing = true;
+
+    float smoothness = 1.0f;
     float stepOverThreshold = 0.1f;
 
-    void Update ()
+    Vector3 originalPos;
+
+    void Update()
     {
-        if(mTarget != null)
-        {
-            Vector3 targetPosition = new Vector3(mTarget.transform.position.x,transform.position.y, transform.position.z);
+        if (mTarget != null)
+        {/*
+<<<<<<< HEAD
+            Vector3 targetPosition = new Vector3(mTarget.transform.position.x, transform.position.y, transform.position.z);
             Vector3 direction = targetPosition - transform.position;
             if (direction.x < 0 && !(transform.position.x - 1.0f > mLeftMostLimit.position.x))
             {
@@ -25,15 +30,34 @@ public class CameraFollow : MonoBehaviour
                 direction = targetPosition - transform.position;
             }
 
-            if(direction.magnitude > stepOverThreshold)
+            if (direction.magnitude > stepOverThreshold)
             {
-                transform.Translate (direction * kFollowSpeed * Time.deltaTime);
+                transform.Translate(direction * kFollowSpeed * Time.deltaTime);
+=======*/
+            if (mTarget.GetComponent<WeebPlayer>().GetFacingDirection() == Vector2.right)
+            {
+                Vector3 targetPosition = new Vector3(mTarget.transform.position.x + 5.0f, mTarget.transform.position.y+1.5f, transform.position.z);
+                Vector3 direction = targetPosition - transform.position;
+                transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
             }
             else
             {
-                // If close enough, just step over
-                transform.position = targetPosition;
+                if (mTarget.transform.position.x - 1.0f < mLeftMostLimit.position.x)
+                {
+                    Vector3 targetPosition = new Vector3(mTarget.transform.position.x, mTarget.transform.position.y + 1.5f, transform.position.z);
+                    Vector3 direction = targetPosition - transform.position;
+                    transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
+                }
+                else
+                {
+                    Vector3 targetPosition = new Vector3(mTarget.transform.position.x - 5.0f, mTarget.transform.position.y + 1.5f, transform.position.z);
+                    Vector3 direction = targetPosition - transform.position;
+                    transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
+                }
+                
+                   
             }
         }
+
     }
 }
