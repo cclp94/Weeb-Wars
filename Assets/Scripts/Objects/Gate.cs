@@ -19,6 +19,7 @@ public class Gate : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log(transform.position);
         isOpen = false;
         difference = new Vector3(0.0f, deltaY, 0.0f);
     }
