@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a7ea4ddd5b10eea42a133c7a19683401
-timeCreated: 1509415551
+timeCreated: 1509488719
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,6 +9,8 @@ TextureImporter:
     21300004: titan_2
     21300006: titan_3
     21300008: titan_4
+    21300010: titan_5
+    21300012: titan_6
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -91,10 +93,10 @@ TextureImporter:
       name: titan_0
       rect:
         serializedVersion: 2
-        x: 84
-        y: 485
-        width: 253
-        height: 323
+        x: 87
+        y: 595
+        width: 243
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -105,10 +107,10 @@ TextureImporter:
       name: titan_1
       rect:
         serializedVersion: 2
-        x: 437
-        y: 491
-        width: 434
-        height: 326
+        x: 577
+        y: 588
+        width: 165
+        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,6 +147,34 @@ TextureImporter:
       tessellationDetail: 0
     - serializedVersion: 2
       name: titan_4
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 398
+        width: 434
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: titan_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 45
+        width: 165
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: titan_6
       rect:
         serializedVersion: 2
         x: 497

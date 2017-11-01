@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour {
     [SerializeField]
     float hp = 1;
 
-    void OnTriggerEnter2D(Collider2D col)
+    virtual public void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "DamagingBullet")
         {
