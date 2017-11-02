@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c79f2f02d0307424a9ad3a94bd6e32f4
+timeCreated: 1509512076
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Cagar
+  fontNames:
+  - Cagar
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
