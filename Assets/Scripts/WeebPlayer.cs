@@ -192,6 +192,7 @@ public class WeebPlayer : MonoBehaviour
     {
         Instantiate(mDeathParticleEmitter, gameObject.transform.position, Quaternion.identity);
         Destroy (gameObject);
+        //PlayerUpgradeManager.Instance.goBackToLevelInFiveSeconds();
     }
 
     public void TakeDamage(int dmg)

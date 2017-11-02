@@ -9,6 +9,8 @@ public class PlayerUpgradeManager : MonoBehaviour {
 
     [SerializeField]
     GameObject defaultGunUpgrade;
+    [SerializeField]
+    LevelManager mLevelManager;
     private GameObject gun;
     private GameObject weaponTypeGameObject;
 
@@ -59,11 +61,16 @@ public class PlayerUpgradeManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if(startBackIn5 != -1){
+            if(Time.time - startBackIn5 >= 5){
+                SceneManager.LoadScene("Choose a Level");
+            }
+        }
 	}
 
     private void InitComponents()
     {
+        startBackIn5 = -1;
         gun = GameObject.FindGameObjectWithTag("Gun");
         weaponTypeGameObject = GameObject.FindGameObjectWithTag("WeaponTypeUI");
         allienGun = gun.GetComponent<AllienGun>();
@@ -109,5 +116,9 @@ public class PlayerUpgradeManager : MonoBehaviour {
     {
         int indexOfWeapon = mWeaponTypes.FindIndex(x => x.name == weapon);
         mWeaponsAvailable[indexOfWeapon] = true;
+    }
+    float startBackIn5;
+    public void goBackToLevelInFiveSeconds(){
+        startBackIn5 = Time.time;
     }
 }
