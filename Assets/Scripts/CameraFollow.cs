@@ -12,7 +12,7 @@ public class CameraFollow : MonoBehaviour
 
     bool facing = true;
 
-    float smoothness = 1.0f;
+    float smoothness = 3.0f;
     float stepOverThreshold = 0.1f;
 
     Vector3 originalPos;

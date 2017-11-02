@@ -3,58 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Button : MonoBehaviour {
+    [SerializeField]
+    public bool isOneTimePress;
 
-    [SerializeField]
-    GameObject gate;
-    [SerializeField]
-    Sprite on;
-    [SerializeField]
-    Sprite off;
-    [SerializeField]
-    float down;
-    [SerializeField]
-    float waitTime;
+    bool isPressed;
 
-    private bool isPushed;
-    private float timer;
-    private Gate gateScript;
-    private string colTag;
-
-    void Awake()
+    void Start(){
+        isPressed = false;
+    }
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        gateScript = gate.GetComponent<Gate>();
+		isPressed = true;
+
+	}
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if(!isOneTimePress)
+            isPressed = false;
     }
 
-    private void Update()
-    {
-        timer = timer + Time.deltaTime;
+    public bool IsPressed(){
+        return isPressed;
     }
-
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if ((col.tag == "MovableObject" || col.tag == "Player") && !isPushed && timer > waitTime)
-        {
-            transform.position = transform.position - new Vector3(0.0f, down, 0.0f);
-            GetComponent<SpriteRenderer>().sprite = on;
-            isPushed = true;
-            timer = 0.0f;
-            gateScript.OpenGate();
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D col)
-    {
-        if ((col.tag == "MovableObject" || col.tag == "Player") && isPushed && timer > waitTime)
-        {
-            Debug.Log(timer);
-            transform.position = transform.position + new Vector3(0.0f, down, 0.0f);
-            GetComponent<SpriteRenderer>().sprite = off;
-            isPushed = false;
-            timer = 0.0f;
-            gateScript.CloseGate();
-        }
-    }
-
-
 
 }

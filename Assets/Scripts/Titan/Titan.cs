@@ -27,6 +27,7 @@ public class Titan : Enemy {
 
     // Use this for initialization
     void Start () {
+        gameObject.SetActive(false);
         mUpDirection = true;
         restPositionRight = rightHand.transform.position;
         restPositionLeft = leftHand.transform.position;

@@ -1,18 +1,16 @@
 fileFormatVersion: 2
-guid: 8b7cc91931f4ef64a8d4b7a221b6ea4a
-timeCreated: 1509592761
+guid: 4ce6b5dfb83a94787996adf06e728c7c
+timeCreated: 1509598062
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Death Mechanism_0
-    21300002: Death Mechanism_1
-    21300004: Death Mechanism_2
-    21300006: Death Mechanism_3
-    21300008: Death Mechanism_4
-    21300010: Death Mechanism_5
-    21300012: Death Mechanism_6
-    21300014: Death Mechanism_7
-    21300016: Death Mechanism_8
+    21300000: platform2_0
+    21300002: platform2_1
+    21300004: platform2_2
+    21300006: platform2_3
+    21300008: platform2_4
+    21300010: platform2_5
+    21300012: platform2_6
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -80,131 +78,111 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Death Mechanism_0
+      name: platform2_0
       rect:
         serializedVersion: 2
-        x: 94
-        y: 312
-        width: 152
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Death Mechanism_1
-      rect:
-        serializedVersion: 2
-        x: 254
-        y: 265
-        width: 152
-        height: 112
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Death Mechanism_2
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 209
-        width: 152
-        height: 168
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Death Mechanism_3
-      rect:
-        serializedVersion: 2
-        x: 598
-        y: 153
-        width: 152
-        height: 224
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Death Mechanism_4
-      rect:
-        serializedVersion: 2
-        x: 776
-        y: 141
-        width: 152
-        height: 236
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Death Mechanism_5
-      rect:
-        serializedVersion: 2
-        x: 472
-        y: 605
-        width: 36
-        height: 24
+        x: 4
+        y: 32
+        width: 7
+        height: 5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Death Mechanism_6
+      name: platform2_1
       rect:
         serializedVersion: 2
-        x: 629
-        y: 605
-        width: 36
-        height: 24
+        x: 15
+        y: 32
+        width: 7
+        height: 5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Death Mechanism_7
+      name: platform2_2
       rect:
         serializedVersion: 2
-        x: 532
-        y: 605
-        width: 24
-        height: 36
+        x: 27
+        y: 32
+        width: 7
+        height: 5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Death Mechanism_8
+      name: platform2_3
       rect:
         serializedVersion: 2
-        x: 581
-        y: 605
-        width: 24
-        height: 36
+        x: 38
+        y: 32
+        width: 7
+        height: 5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: platform2_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 32
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: platform2_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 32
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: platform2_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
