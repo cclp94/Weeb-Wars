@@ -45,7 +45,5 @@ public class Jamminger : Enemy, FollowTarget
     public override void Die()
     {
         base.Die();
-        // Temp: give player TeleportationBullet Upgrade
-        mTarget.gameObject.GetComponent<WeebPlayer>().unlockWeaponUpgrade("TeleportationBullet");
     }
 }

@@ -36,7 +36,15 @@ public class FloorEnemy : Enemy, FollowTarget
     {
         Follow(mTarget);
         UpdateAnimator();
+        rescaleCollider();
     }
+
+	private void rescaleCollider()
+	{
+		Vector2 S = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.size;
+		gameObject.GetComponent<BoxCollider2D>().size = S;
+		//gameObject.GetComponent<BoxCollider2D>().offset = new Vector2((S.x / 2),0);
+	}
 
     private void UpdateAnimator()
     {
@@ -53,14 +61,19 @@ public class FloorEnemy : Enemy, FollowTarget
     {
         if (target != null)
         {
-            Vector2 direction = target.transform.position - transform.position;
+            Vector2 targetPos = target.transform.position;
+            Vector2 pos = transform.position;
+            Vector2 direction =  targetPos - pos;
             if (direction.magnitude <= mFollowRange)
             {
                 if (direction.magnitude > mArriveThreshold)
                 {
                     mRunning = true;
                     mAttacking = false;
-                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
+
+                    Vector2 newPos = (Vector2)(new Vector2(transform.position.x, 0)) + (new Vector2(direction.normalized.x * Time.deltaTime*mFollowSpeed, 0));
+                    //mRigidBody2D.MovePosition(newPos);
+					transform.Translate(new Vector2(direction.normalized.x, 0) * mFollowSpeed * Time.deltaTime, Space.World);
                 }
                 else
                 {
@@ -68,6 +81,15 @@ public class FloorEnemy : Enemy, FollowTarget
                     mRunning = false;
                     //transform.position = target.transform.position;
                 }
+
+				if (mTarget.position.x > transform.position.x)
+				{
+					GetComponent<SpriteRenderer>().flipX = false;
+				}
+				else
+				{
+					GetComponent<SpriteRenderer>().flipX = true;
+				}
             }
         }
     }
@@ -75,7 +97,21 @@ public class FloorEnemy : Enemy, FollowTarget
     public override void Die()
     {
         base.Die();
-        // Temp: give player TeleportationBullet Upgrade
-        mTarget.gameObject.GetComponent<WeebPlayer>().unlockWeaponUpgrade("TeleportationBullet");
     }
+
+    public void OnCollisionEnter2D(Collision2D col)
+	{
+		if (col.gameObject.tag == "DamagingBullet")
+		{
+            col.gameObject.GetComponent<GunUpgrade>().Collide(this.gameObject);
+		}
+	}
+
+	public void OnCollisionStay2D(Collision2D col)
+	{
+		if (col.gameObject.layer == LayerMask.NameToLayer("Player"))
+		{
+			col.gameObject.GetComponent<WeebPlayer>().TakeDamage(3);
+		}
+	}
 }

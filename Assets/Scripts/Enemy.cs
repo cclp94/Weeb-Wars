@@ -5,6 +5,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour { 
     [SerializeField]
     float hp = 1;
+    [SerializeField]
+    GameObject deathPrefab;
 
     virtual public void OnTriggerEnter2D(Collider2D col)
     {
@@ -32,6 +34,7 @@ public class Enemy : MonoBehaviour {
     virtual public void Die()
     {
         Destroy(gameObject);
+        Instantiate(deathPrefab, transform.position, Quaternion.identity);
     }
 
 }
