@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Goku : Enemy
+public class Ganon : Enemy
 {
 
     [SerializeField]
@@ -20,6 +20,9 @@ public class Goku : Enemy
 
     float distance;
     Vector2 facingDirection;
+
+    [SerializeField]
+    bool flyDir = true;
 
     float attackTimer;
 
@@ -53,22 +56,47 @@ public class Goku : Enemy
 
         hit = false;
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (distance < 6.0f)
         {
-            attack();
-        }
-
-        if (distance < 5.0f)
-        {
-            flying = false;
             if (attackTimer > 2)
             {
+                flying = false;
                 attackTimer = 0;
                 attack();
             }
+            else if (flyDir)
+            {
+                flying = true;
+                if (this.transform.position.x - mTarget.position.x > 0)
+                {
+                    Vector2 direction = new Vector2(-1.0f, 0.5f);
+                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
+                }
+                else
+                {
+                    Vector2 direction = new Vector2(-1.0f, -0.5f);
+                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
+                }
+                if (transform.position.x - mTarget.position.x < -5.5f) flyDir = false;
+            }
+            else
+            {
+                flying = true;
+                if (this.transform.position.x - mTarget.position.x < 0)
+                {
+                    Vector2 direction = new Vector2(1.0f, 0.5f);
+                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
+                }
+                else
+                {
+                    Vector2 direction = new Vector2(1.0f, -0.5f);
+                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
+                }
+                if (this.transform.position.x - mTarget.position.x > 5.5f) flyDir = true;
+            }
         }
         else //*/ 
-        if ((distance < 10.0f) && (distance > 5.0f))
+        if ((distance < 12.0f) && (distance > 6.0f))
         {
             follow();
         }
@@ -82,9 +110,9 @@ public class Goku : Enemy
 
     private void UpdateAnimator()
     {
-        gAnimator.SetBool("isFlying", flying);
-        gAnimator.SetBool("isAttacking", attacking);
-        gAnimator.SetBool("isHit", hit);
+        gAnimator.SetBool("Flying", flying);
+        gAnimator.SetBool("Attack", attacking);
+        gAnimator.SetBool("Hit", hit);
     }
 
     void follow()
