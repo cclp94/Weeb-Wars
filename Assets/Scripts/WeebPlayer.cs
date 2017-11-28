@@ -78,6 +78,8 @@ public class WeebPlayer : MonoBehaviour
     {
         if (Time.timeScale == 0)
             return;
+        if (!mDashing)
+            this.gameObject.layer = 9;
         if (!mStunned)
         {
             mRunning = false;
@@ -90,7 +92,8 @@ public class WeebPlayer : MonoBehaviour
                     // Reset velocity
                     mRigidBody2D.velocity = Vector3.zero;
                     mRigidBody2D.angularVelocity = 0;
-                }else
+                }
+                else
                 {
                     weebJumpped = false;
                     dashStartTime = Time.time;
@@ -132,12 +135,24 @@ public class WeebPlayer : MonoBehaviour
                 //Instantiate(mDustParticleEmitter, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z), Quaternion.identity);
             }
 
-            if (mGrounded && Input.GetButtonDown("Dash") && Time.time - dashStartTime >= 1)
+            if (Input.GetButtonDown("Dash") && Time.time - dashStartTime >= 1)
             {
-                mRigidBody2D.AddForce(GetFacingDirection() * 7, ForceMode2D.Impulse);
-                dashStartTime = Time.time;
-                mDashing = true;
-                mDashSound.Play();
+                if (mGrounded)
+                {
+                    mRigidBody2D.AddForce(GetFacingDirection() * 9, ForceMode2D.Impulse);
+                    dashStartTime = Time.time;
+                    mDashing = true;
+                    mDashSound.Play();
+                    this.gameObject.layer = 31;
+                }
+                else
+                {
+                    mRigidBody2D.AddForce(GetFacingDirection() * 4 + Vector2.up, ForceMode2D.Impulse);
+                    dashStartTime = Time.time;
+                    mDashing = true;
+                    mDashSound.Play();
+                    this.gameObject.layer = 31;
+                }
             }
 
             if (Input.GetButtonDown("Switch Right Weapon"))
