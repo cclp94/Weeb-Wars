@@ -13,7 +13,7 @@ public class SailorMoon : Enemy, FollowTarget
     [SerializeField]
     GameObject projectile;
 
-    float mArriveThreshold = 4.0f;
+    float mArriveThreshold = 5.0f;
     Vector2 mFacingDirection;
 
     // Animator booleans
@@ -26,12 +26,14 @@ public class SailorMoon : Enemy, FollowTarget
     Rigidbody2D mRigidBody2D;
 
     float attackTimer;
+    AudioSource hurtSound;
 
     void Start()
     {
         // Get references to other components and game objects
         mAnimator = GetComponent<Animator>();
         mRigidBody2D = GetComponent<Rigidbody2D>();
+        hurtSound = GetComponent<AudioSource>();
 
         mFacingDirection = Vector2.right;
 
@@ -130,10 +132,10 @@ public class SailorMoon : Enemy, FollowTarget
     {
         if (col.gameObject.tag == "DamagingBullet")
         {
-           
             mAttacking = false;
             mRunning = false;
             hurt = true;
+            hurtSound.Play();
             UpdateAnimator();
             col.gameObject.GetComponent<GunUpgrade>().Collide(this.gameObject);
             attackTimer = 0;
