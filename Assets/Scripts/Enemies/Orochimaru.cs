@@ -2,7 +2,7 @@
 using System.Collections;
 using System;
 
-public class FloorEnemy : Enemy, FollowTarget
+public class Orochimaru : Enemy, FollowTarget
 {
     [SerializeField]
     Transform mTarget;
@@ -17,16 +17,20 @@ public class FloorEnemy : Enemy, FollowTarget
     // Animator booleans
     bool mRunning;
     bool mAttacking;
+    bool hurt;
 
     // References to other components and game objects
     Animator mAnimator;
     Rigidbody2D mRigidBody2D;
+
+    AudioSource hurtSound;
 
     void Start()
     {
         // Get references to other components and game objects
         mAnimator = GetComponent<Animator>();
         mRigidBody2D = GetComponent<Rigidbody2D>();
+        hurtSound = GetComponent<AudioSource>();
 
         mFacingDirection = Vector2.right;
 
@@ -34,9 +38,16 @@ public class FloorEnemy : Enemy, FollowTarget
 
     void Update()
     {
+        /*if (hurt)
+        {
+            StartCoroutine(pauseMovement());
+        }*/
+
         Follow(mTarget);
         UpdateAnimator();
         rescaleCollider();
+
+        hurt = false;
     }
 
 	private void rescaleCollider()
@@ -50,6 +61,7 @@ public class FloorEnemy : Enemy, FollowTarget
     {
         mAnimator.SetBool("isRunning", mRunning);
         mAnimator.SetBool("isAttacking", mAttacking);
+        mAnimator.SetBool("isHurt", hurt);
     }
 
     public void SetTarget(Transform target)
@@ -91,6 +103,11 @@ public class FloorEnemy : Enemy, FollowTarget
 					GetComponent<SpriteRenderer>().flipX = true;
 				}
             }
+            else
+            {
+                mAttacking = false;
+                mRunning = false;
+            }
         }
     }
 
@@ -98,20 +115,25 @@ public class FloorEnemy : Enemy, FollowTarget
     {
         base.Die();
     }
+    
+    public void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "DamagingBullet")
+        {
+            mAttacking = false;
+            mRunning = false;
+            hurt = true;
+            hurtSound.Play();
+            col.GetComponent<GunUpgrade>().Collide(this.gameObject);
+        }
+    }
 
-    public void OnCollisionEnter2D(Collision2D col)
-	{
-		if (col.gameObject.tag == "DamagingBullet")
-		{
-            col.gameObject.GetComponent<GunUpgrade>().Collide(this.gameObject);
-		}
-	}
-
-	public void OnCollisionStay2D(Collision2D col)
+    public void OnCollisionStay2D(Collision2D col)
 	{
 		if (col.gameObject.layer == LayerMask.NameToLayer("Player"))
 		{
 			col.gameObject.GetComponent<WeebPlayer>().TakeDamage(3);
 		}
 	}
+
 }
