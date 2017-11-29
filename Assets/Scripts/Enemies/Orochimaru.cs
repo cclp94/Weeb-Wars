@@ -2,7 +2,7 @@
 using System.Collections;
 using System;
 
-public class FloorEnemy : Enemy, FollowTarget
+public class Orochimaru : Enemy, FollowTarget
 {
     [SerializeField]
     Transform mTarget;
@@ -17,6 +17,7 @@ public class FloorEnemy : Enemy, FollowTarget
     // Animator booleans
     bool mRunning;
     bool mAttacking;
+    bool hit;
 
     // References to other components and game objects
     Animator mAnimator;
