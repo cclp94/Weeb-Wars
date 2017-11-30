@@ -46,6 +46,7 @@ public class PacMan : MonoBehaviour {
         if (col.gameObject.tag == "Player")
         {
             col.gameObject.GetComponent<WeebPlayer>().TakeDamage(damage);
+            col.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector3(-5.0f, 0.0f, 0.0f);
         }
     }
 
