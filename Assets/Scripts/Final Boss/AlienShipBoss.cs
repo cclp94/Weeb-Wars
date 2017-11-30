@@ -226,11 +226,15 @@ public class AlienShipBoss : BossEnemy {
             Destroy(col.gameObject);
         }
     }
+    bool hasDied = false;
+
 	override public void Die()
-	{
+	{   
         print("Roll credits");
 		Destroy(gameObject);
 		Instantiate(deathPrefab, transform.position, Quaternion.identity);
+        hasDied = true;
+        GameObject.Find("EnDialog").GetComponent<DialogueTrigger>().TriggerDialogue();
         SceneManager.LoadScene("Credits");
 	}
 }
