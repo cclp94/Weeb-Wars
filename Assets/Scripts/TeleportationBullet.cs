@@ -14,23 +14,32 @@ public class TeleportationBullet : GunUpgrade {
 
     static TeleportState currentState;
     static GameObject teletransportTarget;
+    WeebPlayer weeb;
+
+    void Start()
+    {
+        weeb = GameObject.FindGameObjectWithTag("Player").GetComponent<WeebPlayer>();
+    }
 
     void Update(){
         if(Input.GetButtonDown("Aux Fire")){
+            if(currentState == TeleportState.HIT_ENEMY && teletransportTarget == null)
+            {
+                currentState = TeleportState.NONE;
+            }
             Debug.Log("Fire");
 			if (currentState == TeleportState.HIT_ENEMY)
 			{
-				teletransportTarget.transform.position = transform.position;
+                teletransportTarget.transform.position = transform.position;
 				currentState = TeleportState.NONE;
 				Destroy(this.gameObject);
 			}else if (currentState == TeleportState.SECOND_SHOT_ENEMY)
 			{
                 Debug.Log("enemy teleporting");
 
-            }else if(currentState == TeleportState.NONE){
-				GameObject player = GameObject.FindGameObjectWithTag("Player");
-				player.transform.position = transform.position;
-                player.GetComponent<WeebPlayer>().ResetGravity();
+            }else if(currentState == TeleportState.NONE && weeb.IsGrounded()){
+                weeb.transform.position = transform.position;
+                weeb.GetComponent<WeebPlayer>().ResetGravity();
 				Destroy(this.gameObject);
             }
         }

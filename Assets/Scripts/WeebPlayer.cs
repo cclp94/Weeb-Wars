@@ -287,4 +287,9 @@ public class WeebPlayer : MonoBehaviour
     {
         PlayerUpgradeManager.Instance.unlockWeapon(name);
     }
+
+    public bool IsGrounded()
+    {
+        return mGrounded;
+    }
 }
