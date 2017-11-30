@@ -1,0 +1,1957 @@
+fileFormatVersion: 2
+guid: 6a4211257d4ae234f9c37a86eccf53b1
+timeCreated: 1512070428
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pacmanSprites_0
+    21300002: pacmanSprites_1
+    21300004: pacmanSprites_2
+    21300006: pacmanSprites_3
+    21300008: pacmanSprites_4
+    21300010: pacmanSprites_5
+    21300012: pacmanSprites_6
+    21300014: pacmanSprites_7
+    21300016: pacmanSprites_8
+    21300018: pacmanSprites_9
+    21300020: pacmanSprites_10
+    21300022: pacmanSprites_11
+    21300024: pacmanSprites_12
+    21300026: pacmanSprites_13
+    21300028: pacmanSprites_14
+    21300030: pacmanSprites_15
+    21300032: pacmanSprites_16
+    21300034: pacmanSprites_17
+    21300036: pacmanSprites_18
+    21300038: pacmanSprites_19
+    21300040: pacmanSprites_20
+    21300042: pacmanSprites_21
+    21300044: pacmanSprites_22
+    21300046: pacmanSprites_23
+    21300048: pacmanSprites_24
+    21300050: pacmanSprites_25
+    21300052: pacmanSprites_26
+    21300054: pacmanSprites_27
+    21300056: pacmanSprites_28
+    21300058: pacmanSprites_29
+    21300060: pacmanSprites_30
+    21300062: pacmanSprites_31
+    21300064: pacmanSprites_32
+    21300066: pacmanSprites_33
+    21300068: pacmanSprites_34
+    21300070: pacmanSprites_35
+    21300072: pacmanSprites_36
+    21300074: pacmanSprites_37
+    21300076: pacmanSprites_38
+    21300078: pacmanSprites_39
+    21300080: pacmanSprites_40
+    21300082: pacmanSprites_41
+    21300084: pacmanSprites_42
+    21300086: pacmanSprites_43
+    21300088: pacmanSprites_44
+    21300090: pacmanSprites_45
+    21300092: pacmanSprites_46
+    21300094: pacmanSprites_47
+    21300096: pacmanSprites_48
+    21300098: pacmanSprites_49
+    21300100: pacmanSprites_50
+    21300102: pacmanSprites_51
+    21300104: pacmanSprites_52
+    21300106: pacmanSprites_53
+    21300108: pacmanSprites_54
+    21300110: pacmanSprites_55
+    21300112: pacmanSprites_56
+    21300114: pacmanSprites_57
+    21300116: pacmanSprites_58
+    21300118: pacmanSprites_59
+    21300120: pacmanSprites_60
+    21300122: pacmanSprites_61
+    21300124: pacmanSprites_62
+    21300126: pacmanSprites_63
+    21300128: pacmanSprites_64
+    21300130: pacmanSprites_65
+    21300132: pacmanSprites_66
+    21300134: pacmanSprites_67
+    21300136: pacmanSprites_68
+    21300138: pacmanSprites_69
+    21300140: pacmanSprites_70
+    21300142: pacmanSprites_71
+    21300144: pacmanSprites_72
+    21300146: pacmanSprites_73
+    21300148: pacmanSprites_74
+    21300150: pacmanSprites_75
+    21300152: pacmanSprites_76
+    21300154: pacmanSprites_77
+    21300156: pacmanSprites_78
+    21300158: pacmanSprites_79
+    21300160: pacmanSprites_80
+    21300162: pacmanSprites_81
+    21300164: pacmanSprites_82
+    21300166: pacmanSprites_83
+    21300168: pacmanSprites_84
+    21300170: pacmanSprites_85
+    21300172: pacmanSprites_86
+    21300174: pacmanSprites_87
+    21300176: pacmanSprites_88
+    21300178: pacmanSprites_89
+    21300180: pacmanSprites_90
+    21300182: pacmanSprites_91
+    21300184: pacmanSprites_92
+    21300186: pacmanSprites_93
+    21300188: pacmanSprites_94
+    21300190: pacmanSprites_95
+    21300192: pacmanSprites_96
+    21300194: pacmanSprites_97
+    21300196: pacmanSprites_98
+    21300198: pacmanSprites_99
+    21300200: pacmanSprites_100
+    21300202: pacmanSprites_101
+    21300204: pacmanSprites_102
+    21300206: pacmanSprites_103
+    21300208: pacmanSprites_104
+    21300210: pacmanSprites_105
+    21300212: pacmanSprites_106
+    21300214: pacmanSprites_107
+    21300216: pacmanSprites_108
+    21300218: pacmanSprites_109
+    21300220: pacmanSprites_110
+    21300222: pacmanSprites_111
+    21300224: pacmanSprites_112
+    21300226: pacmanSprites_113
+    21300228: pacmanSprites_114
+    21300230: pacmanSprites_115
+    21300232: pacmanSprites_116
+    21300234: pacmanSprites_117
+    21300236: pacmanSprites_118
+    21300238: pacmanSprites_119
+    21300240: pacmanSprites_120
+    21300242: pacmanSprites_121
+    21300244: pacmanSprites_122
+    21300246: pacmanSprites_123
+    21300248: pacmanSprites_124
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pacmanSprites_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 385
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 385
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 385
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 383
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 383
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 383
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_6
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 389
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_7
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 395
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 395
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 358
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 355
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 355
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 353
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 353
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_14
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 351
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_15
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 359
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 325
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 325
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 324
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_19
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 324
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_20
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 324
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 330
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_22
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 299
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 297
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 303
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_25
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 297
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_26
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 301
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_27
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 295
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_28
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 301
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_29
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 291
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 265
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_31
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 265
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_32
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 265
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_33
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 265
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_34
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 265
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_35
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 265
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_36
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 265
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_37
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 265
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_38
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 271
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_39
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 276
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_40
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 240
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 235
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_42
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 235
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_43
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 235
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_44
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 235
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_45
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 235
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_46
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 235
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_47
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 235
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_48
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 235
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_49
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 241
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 205
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_51
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 205
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_52
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 205
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_53
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 205
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_54
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 205
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_55
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 205
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_56
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 206
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_57
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 205
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_58
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 211
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_60
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 176
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_61
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 176
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_62
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 176
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_63
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 176
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_64
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 176
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_65
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 176
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_66
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 176
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_67
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 182
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 147
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_69
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 147
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_70
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 147
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_71
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 147
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_72
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 149
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_73
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 147
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_74
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 147
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_75
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 148
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_76
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 147
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_78
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 128
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_79
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 128
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_80
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 128
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_81
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 128
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_82
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 129
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_83
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 128
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_84
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 128
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_85
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 129
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_86
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 128
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_87
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 128
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_88
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 117
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_89
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 119
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_90
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 119
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_91
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 114
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_92
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 114
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_93
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 99
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_94
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 95
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_95
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 95
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_96
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_97
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 95
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_98
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 87
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_99
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 89
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_100
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 89
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_101
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_102
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 64
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_103
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 64
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_104
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 64
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_105
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 58
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_106
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 58
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_107
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 59
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_108
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 58
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_109
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_110
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 33
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_111
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 33
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_112
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 33
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_113
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 31
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_114
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 30
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_115
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 29
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_116
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 29
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_117
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 29
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_118
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 30
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_119
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 27
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_120
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 5
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_121
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_122
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 4
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_123
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 4
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacmanSprites_124
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
