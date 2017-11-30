@@ -137,7 +137,7 @@ public class AlienShipBoss : BossEnemy {
                 move.Set(centerX - transform.position.x, centerY - transform.position.y, 0f);
                 break;
         }
-        transform.position = transform.position + (move.normalized * Time.deltaTime * 2);
+        transform.position = transform.position + (move.normalized * Time.deltaTime * 4);
     }
 
     void UpdateAnimator()
