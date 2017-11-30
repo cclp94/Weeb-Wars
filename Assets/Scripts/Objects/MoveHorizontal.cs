@@ -24,4 +24,14 @@ public class MoveHorizontal : MonoBehaviour {
             timer = 0.0f;
         }
     }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        collision.transform.SetParent(transform);
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        collision.transform.SetParent(null);
+    }
 }
