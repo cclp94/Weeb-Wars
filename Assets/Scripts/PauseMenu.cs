@@ -6,12 +6,16 @@ public class PauseMenu : MonoBehaviour {
 
     [SerializeField]
     public GameObject mPausePanel;
+    public GameObject mGameOver;
+    public GameObject mComplete;
 
     private bool mIsMenuOpen;
 
     void Start()
     {
         mPausePanel.SetActive(false);
+        mGameOver.SetActive(false);
+        mComplete.SetActive(false);
     }
 	void Update()
     {
@@ -30,6 +34,20 @@ public class PauseMenu : MonoBehaviour {
                 mPausePanel.SetActive(true);
                 mIsMenuOpen = true;
             }
+        }
+
+        if (GameObject.FindGameObjectWithTag("Player") == null)
+        {
+            //Time.timeScale = 0;
+            mGameOver.SetActive(true);
+            mIsMenuOpen = true;
+        }
+
+        if (GameObject.FindGameObjectWithTag("TitanHand") == null)
+        {
+            //Time.timeScale = 0;
+            mComplete.SetActive(true);
+            mIsMenuOpen = true;
         }
     }
    
