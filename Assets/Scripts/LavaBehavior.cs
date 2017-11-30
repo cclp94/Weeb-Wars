@@ -7,20 +7,25 @@ public class LavaBehavior : MonoBehaviour {
     Vector3 startPosition;
     Vector3 endPosition;
     public float speed;
+    bool trapEnclenched = false;
+
+    [SerializeField] GameObject player;
 
     private void Start()
     {
-        Vector3 startPosition = transform.position;
-        Vector3 endPosition = new Vector3(99.36f, 9.56f, 0f);
-
+        endPosition = new Vector3(99.53f, 9.56f, 0f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!(transform.position == endPosition))
+        if(Vector3.Distance(transform.position, player.transform.position) < 10f) {
+            trapEnclenched = true;
+        }
+
+        if (!(transform.position == endPosition) && trapEnclenched)
         {
-           transform.position = Vector3.Lerp(new Vector3(99.36f, -4.21f, 0f), endPosition, speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, endPosition, speed * Time.deltaTime);
         }
     }
 }
