@@ -5,7 +5,7 @@ using UnityEngine;
 public class KiBlast : MonoBehaviour {
 
     [SerializeField]
-    float bSpeed;
+    public float bSpeed;
 
     Rigidbody2D mRigidBody2D;
 
