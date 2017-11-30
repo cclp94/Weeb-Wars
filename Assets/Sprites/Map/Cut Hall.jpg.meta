@@ -1,12 +1,11 @@
 fileFormatVersion: 2
-guid: e129567ea7548e943af252a3fae79984
-timeCreated: 1512024101
+guid: 8f82b274644ff15419a0414ebae04fd8
+timeCreated: 1512023382
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: weapon_types_0
-    21300002: weapon_types_1
-    21300004: weapon_types_2
+    21300000: Cut Hall_0
+    21300002: Cut Hall_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -34,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -45,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -77,7 +76,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+  - buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -90,43 +89,29 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: weapon_types_0
+      name: Cut Hall_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 399
-        width: 32
-        height: 22
+        x: 0
+        y: 0
+        width: 1137
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: weapon_types_1
+      name: Cut Hall_1
       rect:
         serializedVersion: 2
-        x: 45
-        y: 400
-        width: 33
-        height: 21
+        x: 1137
+        y: 160
+        width: 164
+        height: 920
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: weapon_types_2
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 399
-        width: 32
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
