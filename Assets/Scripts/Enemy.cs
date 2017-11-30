@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour {
     [SerializeField]
     public float hp = 1;
     [SerializeField]
-    GameObject deathPrefab;
+    public GameObject deathPrefab;
 
     virtual public void OnTriggerEnter2D(Collider2D col)
     {

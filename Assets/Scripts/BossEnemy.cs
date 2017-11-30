@@ -5,7 +5,7 @@ using UnityEngine;
 public class BossEnemy : Enemy {
 
     public GameObject bossHPPrefab;
-    public PauseMenu PauseMenu;
+    public PauseMenu pauseMenu;
 
     private float initialHp;
     private GameObject hpCanvas;
@@ -52,7 +52,7 @@ public class BossEnemy : Enemy {
     {
         print("Died");
         base.Die();
-        PauseMenu.CompleteLevel();
+        pauseMenu.CompleteLevel();
         beatBossTime = Time.time;
     }
 }

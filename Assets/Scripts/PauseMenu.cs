@@ -49,5 +49,10 @@ public class PauseMenu : MonoBehaviour {
         mComplete.SetActive(true);
         mIsMenuOpen = true;
     }
+
+    public void FinishGame(){
+        print("LevelManager finish game");
+        GetComponent<LevelManager>().LoadLevel("Credits");
+    }
    
 }
