@@ -24,6 +24,8 @@ public class CameraFollow : MonoBehaviour
 
     Vector3 originalPos;
 
+    bool toggle;
+
     void Update()
     {
         if (mTarget != null)
@@ -42,7 +44,9 @@ public class CameraFollow : MonoBehaviour
                 transform.Translate(direction * kFollowSpeed * Time.deltaTime);
 =======*/
             // Camera that follows mouse
-            if (Input.GetKey(KeyCode.LeftControl))
+            if (Input.GetKeyDown(KeyCode.LeftControl)) toggle = !toggle;
+
+            if (toggle)
             {
                 Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition) - mTarget.transform.position;
                 Vector3 targetPosition;
