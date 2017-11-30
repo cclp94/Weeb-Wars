@@ -42,26 +42,35 @@ public class CameraFollow : MonoBehaviour
                 transform.Translate(direction * kFollowSpeed * Time.deltaTime);
 =======*/
          // Camera that follows mouse
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition) - mTarget.transform.position;
-            Vector3 targetPosition;
-            if (outOfRange)
+            if (Input.GetKey(KeyCode.LeftControl))
             {
-                timer += Time.deltaTime;
-                if (Vector3.Distance(transform.position, mTarget.position) < 10.5f && timer > 1)
+                Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition) - mTarget.transform.position;
+                Vector3 targetPosition;
+                if (outOfRange)
                 {
-                    outOfRange = false;
-                    timer = 0;
+                    timer += Time.deltaTime;
+                    if (Vector3.Distance(transform.position, mTarget.position) < 10.5f && timer > 1)
+                    {
+                        outOfRange = false;
+                        timer = 0;
+                    }
                 }
-            }
-            if (Mathf.Abs(mousePos.x) > maxCameraDistanceX || Mathf.Abs(mousePos.y) > maxCameraDistanceY || outOfRange)
-            {
-                outOfRange = true;
-                targetPosition = new Vector3(mTarget.position.x, mTarget.position.y, transform.position.z);
+                if (Mathf.Abs(mousePos.x) > maxCameraDistanceX || Mathf.Abs(mousePos.y) > maxCameraDistanceY || outOfRange)
+                {
+                    outOfRange = true;
+                    targetPosition = new Vector3(mTarget.position.x, mTarget.position.y, transform.position.z);
+                }
+                else
+                    targetPosition = new Vector3(mTarget.transform.position.x + mousePos.x / 1.2f, mTarget.transform.position.y + mousePos.y / 1.2f, transform.position.z);
+
+                transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
             }
             else
-                targetPosition = new Vector3(mTarget.transform.position.x + mousePos.x / 1.2f, mTarget.transform.position.y + mousePos.y / 1.2f, transform.position.z);
+            {
+                Vector3 targetPosition = new Vector3(mTarget.position.x, mTarget.position.y + 1.0f, transform.position.z);
 
-            transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
+                transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
+            }
         }
 
     }
