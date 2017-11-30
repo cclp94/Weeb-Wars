@@ -58,7 +58,7 @@ public class Goku : Enemy
             attack();
         }
 
-        if (distance < 4.0f)
+        if (distance < 5.0f)
         {
             flying = false;
             if (attackTimer > 2)
@@ -68,7 +68,7 @@ public class Goku : Enemy
             }
         }
         else //*/ 
-        if ((distance < 10.0f) && (distance > 4.0f))
+        if ((distance < 10.0f) && (distance > 5.0f))
         {
             follow();
         }
