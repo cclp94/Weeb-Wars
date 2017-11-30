@@ -184,7 +184,7 @@ public class Ganon : BossEnemy
         GameObject kB = Instantiate(kiBlast, transform.position, Quaternion.identity) as GameObject;
         KiBlast blast = kB.GetComponent<KiBlast>();
         blast.bSpeed = 7;
-        kB.GetComponent<TimedExpiration>().mExpirationTime = 5;
+        kB.GetComponent<TimedExpiration>().mExpirationTime = 6;
         Vector2 bDirection = mTarget.position - transform.position;
         bDirection.Normalize();
 
