@@ -1,0 +1,5749 @@
+fileFormatVersion: 2
+guid: 5e6b1dcf134a5c54cab559fab05f85b9
+timeCreated: 1512067002
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ChunLi_0
+    21300002: ChunLi_1
+    21300004: ChunLi_2
+    21300006: ChunLi_3
+    21300008: ChunLi_4
+    21300010: ChunLi_5
+    21300012: ChunLi_6
+    21300014: ChunLi_7
+    21300016: ChunLi_8
+    21300018: ChunLi_9
+    21300020: ChunLi_10
+    21300022: ChunLi_11
+    21300024: ChunLi_12
+    21300026: ChunLi_13
+    21300028: ChunLi_14
+    21300030: ChunLi_15
+    21300032: ChunLi_16
+    21300034: ChunLi_17
+    21300036: ChunLi_18
+    21300038: ChunLi_19
+    21300040: ChunLi_20
+    21300042: ChunLi_21
+    21300044: ChunLi_22
+    21300046: ChunLi_23
+    21300048: ChunLi_24
+    21300050: ChunLi_25
+    21300052: ChunLi_26
+    21300054: ChunLi_27
+    21300056: ChunLi_28
+    21300058: ChunLi_29
+    21300060: ChunLi_30
+    21300062: ChunLi_31
+    21300064: ChunLi_32
+    21300066: ChunLi_33
+    21300068: ChunLi_34
+    21300070: ChunLi_35
+    21300072: ChunLi_36
+    21300074: ChunLi_37
+    21300076: ChunLi_38
+    21300078: ChunLi_39
+    21300080: ChunLi_40
+    21300082: ChunLi_41
+    21300084: ChunLi_42
+    21300086: ChunLi_43
+    21300088: ChunLi_44
+    21300090: ChunLi_45
+    21300092: ChunLi_46
+    21300094: ChunLi_47
+    21300096: ChunLi_48
+    21300098: ChunLi_49
+    21300100: ChunLi_50
+    21300102: ChunLi_51
+    21300104: ChunLi_52
+    21300106: ChunLi_53
+    21300108: ChunLi_54
+    21300110: ChunLi_55
+    21300112: ChunLi_56
+    21300114: ChunLi_57
+    21300116: ChunLi_58
+    21300118: ChunLi_59
+    21300120: ChunLi_60
+    21300122: ChunLi_61
+    21300124: ChunLi_62
+    21300126: ChunLi_63
+    21300128: ChunLi_64
+    21300130: ChunLi_65
+    21300132: ChunLi_66
+    21300134: ChunLi_67
+    21300136: ChunLi_68
+    21300138: ChunLi_69
+    21300140: ChunLi_70
+    21300142: ChunLi_71
+    21300144: ChunLi_72
+    21300146: ChunLi_73
+    21300148: ChunLi_74
+    21300150: ChunLi_75
+    21300152: ChunLi_76
+    21300154: ChunLi_77
+    21300156: ChunLi_78
+    21300158: ChunLi_79
+    21300160: ChunLi_80
+    21300162: ChunLi_81
+    21300164: ChunLi_82
+    21300166: ChunLi_83
+    21300168: ChunLi_84
+    21300170: ChunLi_85
+    21300172: ChunLi_86
+    21300174: ChunLi_87
+    21300176: ChunLi_88
+    21300178: ChunLi_89
+    21300180: ChunLi_90
+    21300182: ChunLi_91
+    21300184: ChunLi_92
+    21300186: ChunLi_93
+    21300188: ChunLi_94
+    21300190: ChunLi_95
+    21300192: ChunLi_96
+    21300194: ChunLi_97
+    21300196: ChunLi_98
+    21300198: ChunLi_99
+    21300200: ChunLi_100
+    21300202: ChunLi_101
+    21300204: ChunLi_102
+    21300206: ChunLi_103
+    21300208: ChunLi_104
+    21300210: ChunLi_105
+    21300212: ChunLi_106
+    21300214: ChunLi_107
+    21300216: ChunLi_108
+    21300218: ChunLi_109
+    21300220: ChunLi_110
+    21300222: ChunLi_111
+    21300224: ChunLi_112
+    21300226: ChunLi_113
+    21300228: ChunLi_114
+    21300230: ChunLi_115
+    21300232: ChunLi_116
+    21300234: ChunLi_117
+    21300236: ChunLi_118
+    21300238: ChunLi_119
+    21300240: ChunLi_120
+    21300242: ChunLi_121
+    21300244: ChunLi_122
+    21300246: ChunLi_123
+    21300248: ChunLi_124
+    21300250: ChunLi_125
+    21300252: ChunLi_126
+    21300254: ChunLi_127
+    21300256: ChunLi_128
+    21300258: ChunLi_129
+    21300260: ChunLi_130
+    21300262: ChunLi_131
+    21300264: ChunLi_132
+    21300266: ChunLi_133
+    21300268: ChunLi_134
+    21300270: ChunLi_135
+    21300272: ChunLi_136
+    21300274: ChunLi_137
+    21300276: ChunLi_138
+    21300278: ChunLi_139
+    21300280: ChunLi_140
+    21300282: ChunLi_141
+    21300284: ChunLi_142
+    21300286: ChunLi_143
+    21300288: ChunLi_144
+    21300290: ChunLi_145
+    21300292: ChunLi_146
+    21300294: ChunLi_147
+    21300296: ChunLi_148
+    21300298: ChunLi_149
+    21300300: ChunLi_150
+    21300302: ChunLi_151
+    21300304: ChunLi_152
+    21300306: ChunLi_153
+    21300308: ChunLi_154
+    21300310: ChunLi_155
+    21300312: ChunLi_156
+    21300314: ChunLi_157
+    21300316: ChunLi_158
+    21300318: ChunLi_159
+    21300320: ChunLi_160
+    21300322: ChunLi_161
+    21300324: ChunLi_162
+    21300326: ChunLi_163
+    21300328: ChunLi_164
+    21300330: ChunLi_165
+    21300332: ChunLi_166
+    21300334: ChunLi_167
+    21300336: ChunLi_168
+    21300338: ChunLi_169
+    21300340: ChunLi_170
+    21300342: ChunLi_171
+    21300344: ChunLi_172
+    21300346: ChunLi_173
+    21300348: ChunLi_174
+    21300350: ChunLi_175
+    21300352: ChunLi_176
+    21300354: ChunLi_177
+    21300356: ChunLi_178
+    21300358: ChunLi_179
+    21300360: ChunLi_180
+    21300362: ChunLi_181
+    21300364: ChunLi_182
+    21300366: ChunLi_183
+    21300368: ChunLi_184
+    21300370: ChunLi_185
+    21300372: ChunLi_186
+    21300374: ChunLi_187
+    21300376: ChunLi_188
+    21300378: ChunLi_189
+    21300380: ChunLi_190
+    21300382: ChunLi_191
+    21300384: ChunLi_192
+    21300386: ChunLi_193
+    21300388: ChunLi_194
+    21300390: ChunLi_195
+    21300392: ChunLi_196
+    21300394: ChunLi_197
+    21300396: ChunLi_198
+    21300398: ChunLi_199
+    21300400: ChunLi_200
+    21300402: ChunLi_201
+    21300404: ChunLi_202
+    21300406: ChunLi_203
+    21300408: ChunLi_204
+    21300410: ChunLi_205
+    21300412: ChunLi_206
+    21300414: ChunLi_207
+    21300416: ChunLi_208
+    21300418: ChunLi_209
+    21300420: ChunLi_210
+    21300422: ChunLi_211
+    21300424: ChunLi_212
+    21300426: ChunLi_213
+    21300428: ChunLi_214
+    21300430: ChunLi_215
+    21300432: ChunLi_216
+    21300434: ChunLi_217
+    21300436: ChunLi_218
+    21300438: ChunLi_219
+    21300440: ChunLi_220
+    21300442: ChunLi_221
+    21300444: ChunLi_222
+    21300446: ChunLi_223
+    21300448: ChunLi_224
+    21300450: ChunLi_225
+    21300452: ChunLi_226
+    21300454: ChunLi_227
+    21300456: ChunLi_228
+    21300458: ChunLi_229
+    21300460: ChunLi_230
+    21300462: ChunLi_231
+    21300464: ChunLi_232
+    21300466: ChunLi_233
+    21300468: ChunLi_234
+    21300470: ChunLi_235
+    21300472: ChunLi_236
+    21300474: ChunLi_237
+    21300476: ChunLi_238
+    21300478: ChunLi_239
+    21300480: ChunLi_240
+    21300482: ChunLi_241
+    21300484: ChunLi_242
+    21300486: ChunLi_243
+    21300488: ChunLi_244
+    21300490: ChunLi_245
+    21300492: ChunLi_246
+    21300494: ChunLi_247
+    21300496: ChunLi_248
+    21300498: ChunLi_249
+    21300500: ChunLi_250
+    21300502: ChunLi_251
+    21300504: ChunLi_252
+    21300506: ChunLi_253
+    21300508: ChunLi_254
+    21300510: ChunLi_255
+    21300512: ChunLi_256
+    21300514: ChunLi_257
+    21300516: ChunLi_258
+    21300518: ChunLi_259
+    21300520: ChunLi_260
+    21300522: ChunLi_261
+    21300524: ChunLi_262
+    21300526: ChunLi_263
+    21300528: ChunLi_264
+    21300530: ChunLi_265
+    21300532: ChunLi_266
+    21300534: ChunLi_267
+    21300536: ChunLi_268
+    21300538: ChunLi_269
+    21300540: ChunLi_270
+    21300542: ChunLi_271
+    21300544: ChunLi_272
+    21300546: ChunLi_273
+    21300548: ChunLi_274
+    21300550: ChunLi_275
+    21300552: ChunLi_276
+    21300554: ChunLi_277
+    21300556: ChunLi_278
+    21300558: ChunLi_279
+    21300560: ChunLi_280
+    21300562: ChunLi_281
+    21300564: ChunLi_282
+    21300566: ChunLi_283
+    21300568: ChunLi_284
+    21300570: ChunLi_285
+    21300572: ChunLi_286
+    21300574: ChunLi_287
+    21300576: ChunLi_288
+    21300578: ChunLi_289
+    21300580: ChunLi_290
+    21300582: ChunLi_291
+    21300584: ChunLi_292
+    21300586: ChunLi_293
+    21300588: ChunLi_294
+    21300590: ChunLi_295
+    21300592: ChunLi_296
+    21300594: ChunLi_297
+    21300596: ChunLi_298
+    21300598: ChunLi_299
+    21300600: ChunLi_300
+    21300602: ChunLi_301
+    21300604: ChunLi_302
+    21300606: ChunLi_303
+    21300608: ChunLi_304
+    21300610: ChunLi_305
+    21300612: ChunLi_306
+    21300614: ChunLi_307
+    21300616: ChunLi_308
+    21300618: ChunLi_309
+    21300620: ChunLi_310
+    21300622: ChunLi_311
+    21300624: ChunLi_312
+    21300626: ChunLi_313
+    21300628: ChunLi_314
+    21300630: ChunLi_315
+    21300632: ChunLi_316
+    21300634: ChunLi_317
+    21300636: ChunLi_318
+    21300638: ChunLi_319
+    21300640: ChunLi_320
+    21300642: ChunLi_321
+    21300644: ChunLi_322
+    21300646: ChunLi_323
+    21300648: ChunLi_324
+    21300650: ChunLi_325
+    21300652: ChunLi_326
+    21300654: ChunLi_327
+    21300656: ChunLi_328
+    21300658: ChunLi_329
+    21300660: ChunLi_330
+    21300662: ChunLi_331
+    21300664: ChunLi_332
+    21300666: ChunLi_333
+    21300668: ChunLi_334
+    21300670: ChunLi_335
+    21300672: ChunLi_336
+    21300674: ChunLi_337
+    21300676: ChunLi_338
+    21300678: ChunLi_339
+    21300680: ChunLi_340
+    21300682: ChunLi_341
+    21300684: ChunLi_342
+    21300686: ChunLi_343
+    21300688: ChunLi_344
+    21300690: ChunLi_345
+    21300692: ChunLi_346
+    21300694: ChunLi_347
+    21300696: ChunLi_348
+    21300698: ChunLi_349
+    21300700: ChunLi_350
+    21300702: ChunLi_351
+    21300704: ChunLi_352
+    21300706: ChunLi_353
+    21300708: ChunLi_354
+    21300710: ChunLi_355
+    21300712: ChunLi_356
+    21300714: ChunLi_357
+    21300716: ChunLi_358
+    21300718: ChunLi_359
+    21300720: ChunLi_360
+    21300722: ChunLi_361
+    21300724: ChunLi_362
+    21300726: ChunLi_363
+    21300728: ChunLi_364
+    21300730: ChunLi_365
+    21300732: ChunLi_366
+    21300734: ChunLi_367
+    21300736: ChunLi_368
+    21300738: ChunLi_369
+    21300740: ChunLi_370
+    21300742: ChunLi_371
+    21300744: ChunLi_372
+    21300746: ChunLi_373
+    21300748: ChunLi_374
+    21300750: ChunLi_375
+    21300752: ChunLi_376
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChunLi_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5111
+        width: 48
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 5111
+        width: 63
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5111
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 5110
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 5107
+        width: 47
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 5107
+        width: 58
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 5108
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 5009
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 5005
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 5004
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 5004
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 5003
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5007
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_13
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 5005
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_14
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 5005
+        width: 88
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_15
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 5003
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_16
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 5000
+        width: 88
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4914
+        width: 83
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 4911
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 4909
+        width: 68
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_20
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 4908
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_21
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 4909
+        width: 77
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_22
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 4907
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_23
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 4907
+        width: 78
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_24
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 4904
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_25
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 4903
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_26
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 4903
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_27
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 4904
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_28
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4809
+        width: 83
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_29
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 4808
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_30
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 4807
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_31
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 4804
+        width: 63
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_32
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 4803
+        width: 65
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_33
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 4803
+        width: 68
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_34
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 4801
+        width: 74
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_35
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 4803
+        width: 68
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_36
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 4803
+        width: 65
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_37
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 4800
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_38
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 4800
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_39
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 4803
+        width: 70
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4704
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_41
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 4692
+        width: 44
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_42
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 4709
+        width: 49
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_43
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 4722
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 4727
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_45
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 4726
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_46
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 4709
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_47
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 4696
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_48
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 4678
+        width: 44
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_49
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 4678
+        width: 58
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_50
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 4678
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_51
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 4678
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4596
+        width: 123
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_53
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 4587
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_54
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 4583
+        width: 90
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_55
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 4580
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_56
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 4579
+        width: 96
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_57
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 4578
+        width: 81
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_58
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 4575
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_59
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 4571
+        width: 90
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_60
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 4567
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_61
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4444
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_62
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 4441
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_63
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 4440
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_64
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4453
+        width: 109
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_65
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 4466
+        width: 105
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_66
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4437
+        width: 57
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_67
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 4436
+        width: 56
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_68
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 4433
+        width: 117
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_69
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 4432
+        width: 130
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_70
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 4433
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_71
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 4436
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_72
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 4345
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_73
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 4341
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_74
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 4341
+        width: 95
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_75
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 4341
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_76
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 4336
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_77
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 4336
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_78
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 4335
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_79
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 4335
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_80
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 4245
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_81
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4242
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_82
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 4224
+        width: 53
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_83
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 4223
+        width: 54
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_84
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 4229
+        width: 118
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_85
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 4246
+        width: 135
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_86
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 4244
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_87
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 4241
+        width: 125
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_88
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 4237
+        width: 138
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_89
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 4120
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_90
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 4116
+        width: 122
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_91
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 4119
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_92
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 4116
+        width: 123
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_93
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 4117
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_94
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 4117
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_95
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 4116
+        width: 109
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_96
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 4116
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_97
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4011
+        width: 109
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_98
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 4008
+        width: 118
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 4007
+        width: 134
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_100
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 4007
+        width: 118
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_101
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4007
+        width: 110
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_102
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 4007
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_103
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4003
+        width: 116
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_104
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 4002
+        width: 72
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_105
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 3999
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_106
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 4003
+        width: 114
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_107
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3869
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_108
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3873
+        width: 114
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_109
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3869
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_110
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3866
+        width: 69
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_111
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 3859
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_112
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 3876
+        width: 62
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_113
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 3877
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_114
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3865
+        width: 79
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_115
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 3865
+        width: 81
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_116
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 3865
+        width: 79
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_117
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 3865
+        width: 79
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_118
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 3864
+        width: 79
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_119
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 3876
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_120
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 3873
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_121
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3730
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_122
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3726
+        width: 53
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_123
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 3725
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_124
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 3718
+        width: 79
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_125
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3717
+        width: 120
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_126
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 3717
+        width: 121
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_127
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 3714
+        width: 112
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_128
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 3713
+        width: 112
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_129
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 3760
+        width: 67
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_130
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 3769
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_131
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3762
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_132
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 3764
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_133
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 3759
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_134
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 3769
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_135
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 3762
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_136
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 3761
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_137
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 3759
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_138
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 3727
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_139
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 3721
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_140
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 3727
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_141
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 3722
+        width: 65
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_142
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 3730
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_143
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 3722
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_144
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 3726
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_145
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3595
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_146
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 3595
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_147
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3595
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_148
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 3593
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_149
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 3591
+        width: 119
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_150
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 3593
+        width: 120
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_151
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 3600
+        width: 121
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_152
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 3597
+        width: 121
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_153
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 3597
+        width: 119
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_154
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 3600
+        width: 121
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_155
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3466
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_156
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 3466
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_157
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 3469
+        width: 119
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_158
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 3466
+        width: 122
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_159
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 3465
+        width: 118
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_160
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 3463
+        width: 121
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_161
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 3463
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_162
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 3462
+        width: 121
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_163
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 3466
+        width: 119
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_164
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3335
+        width: 121
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_165
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 3336
+        width: 121
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_166
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 3340
+        width: 121
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_167
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 3336
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_168
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3337
+        width: 105
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_169
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3415
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_170
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 3336
+        width: 103
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_171
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 3410
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_172
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 3337
+        width: 103
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_173
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 3336
+        width: 102
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_174
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 3337
+        width: 103
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_175
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3336
+        width: 102
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_176
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 3401
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_177
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 3400
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_178
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3238
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_179
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3237
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_180
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 3251
+        width: 121
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_181
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 3241
+        width: 108
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_182
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 3215
+        width: 57
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_183
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 3216
+        width: 56
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_184
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 3216
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_185
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 3216
+        width: 126
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_186
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 3198
+        width: 102
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_187
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 3218
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_188
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 3155
+        width: 121
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_189
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3066
+        width: 117
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_190
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 3076
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_191
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 3103
+        width: 88
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_192
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 3106
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_193
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2969
+        width: 76
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_194
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2971
+        width: 73
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_195
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2968
+        width: 79
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_196
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2968
+        width: 78
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_197
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2972
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_198
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 2973
+        width: 79
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_199
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2972
+        width: 113
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_200
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2972
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_201
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 2977
+        width: 103
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_202
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2981
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_203
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 2980
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_204
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2974
+        width: 44
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_205
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2826
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_206
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2818
+        width: 135
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_207
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2816
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_208
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 2816
+        width: 135
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_209
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 2915
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_210
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2821
+        width: 197
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_211
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2825
+        width: 192
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_212
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2808
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_213
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2821
+        width: 137
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_214
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2673
+        width: 137
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_215
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2679
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_216
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 2790
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_217
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2772
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_218
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2682
+        width: 185
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_219
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2775
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_220
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 2779
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_221
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 2777
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_222
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2739
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_223
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2678
+        width: 114
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_224
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2678
+        width: 138
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_225
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 2678
+        width: 195
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_226
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2670
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_227
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 2548
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_228
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2549
+        width: 194
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_229
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2548
+        width: 185
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_230
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2640
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_231
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2644
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_232
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 2642
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_233
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 2544
+        width: 137
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_234
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2639
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_235
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 2548
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_236
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 2634
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_237
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 2545
+        width: 138
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_238
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2543
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_239
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 2604
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_240
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 2544
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_241
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2540
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_242
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 2535
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_243
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2409
+        width: 86
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_244
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2408
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_245
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2415
+        width: 69
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_246
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 2411
+        width: 66
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_247
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2414
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_248
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2418
+        width: 70
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_249
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2422
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_250
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 2426
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_251
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2422
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_252
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 2423
+        width: 108
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_253
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 2426
+        width: 109
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_254
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2427
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_255
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2245
+        width: 123
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_256
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2245
+        width: 124
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_257
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2245
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_258
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 2245
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_259
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2245
+        width: 123
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_260
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2245
+        width: 124
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_261
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2246
+        width: 161
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_262
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 2251
+        width: 161
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_263
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2085
+        width: 161
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_264
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2088
+        width: 148
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_265
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2093
+        width: 177
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_266
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2093
+        width: 174
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_267
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2093
+        width: 174
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_268
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2094
+        width: 171
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_269
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1880
+        width: 195
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_270
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1870
+        width: 260
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_271
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1870
+        width: 270
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_272
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1869
+        width: 285
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_273
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1662
+        width: 285
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_274
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1665
+        width: 286
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_275
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1665
+        width: 290
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_276
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1664
+        width: 287
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_277
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1456
+        width: 284
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_278
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1466
+        width: 142
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_279
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1461
+        width: 101
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_280
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1470
+        width: 141
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_281
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1465
+        width: 101
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_282
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1471
+        width: 114
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_283
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1466
+        width: 101
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_284
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1476
+        width: 117
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_285
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1471
+        width: 103
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_286
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1340
+        width: 118
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_287
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1340
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_288
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1344
+        width: 119
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_289
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1344
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_290
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1346
+        width: 129
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_291
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1353
+        width: 101
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_292
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1214
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_293
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1214
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_294
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1213
+        width: 100
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_295
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1213
+        width: 109
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_296
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1210
+        width: 178
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_297
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1201
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_298
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1209
+        width: 186
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_299
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1200
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_300
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1206
+        width: 193
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_301
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1205
+        width: 200
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_302
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1197
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_303
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1177
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_304
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1190
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_305
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1171
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_306
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1084
+        width: 209
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_307
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1079
+        width: 217
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_308
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1075
+        width: 279
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_309
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1073
+        width: 288
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_310
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 965
+        width: 298
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_311
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 952
+        width: 594
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_312
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1010
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_313
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 841
+        width: 300
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_314
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 929
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_315
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 933
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_316
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 930
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_317
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 929
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_318
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 933
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_319
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 930
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_320
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 830
+        width: 266
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_321
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 898
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_322
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 833
+        width: 236
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_323
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 833
+        width: 235
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_324
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 709
+        width: 256
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_325
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 703
+        width: 258
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_326
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 822
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_327
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 702
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_328
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 694
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_329
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 698
+        width: 256
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_330
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 689
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_331
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 696
+        width: 255
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_332
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 565
+        width: 256
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_333
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 560
+        width: 258
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_334
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 652
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_335
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 562
+        width: 294
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_336
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 553
+        width: 293
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_337
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 426
+        width: 287
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_338
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 415
+        width: 280
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_339
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 419
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_340
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 418
+        width: 155
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_341
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 417
+        width: 135
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_342
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 413
+        width: 169
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_343
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 289
+        width: 134
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_344
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 283
+        width: 155
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_345
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 145
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_346
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 279
+        width: 167
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_347
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 279
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_348
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 278
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_349
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 279
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_350
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 280
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_351
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 280
+        width: 86
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_352
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 283
+        width: 86
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_353
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 164
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_354
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 162
+        width: 69
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_355
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 161
+        width: 69
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_356
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 175
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_357
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 164
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_358
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 161
+        width: 115
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_359
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 159
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_360
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 158
+        width: 116
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_361
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 157
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_362
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 157
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_363
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 157
+        width: 115
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_364
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 157
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_365
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 158
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_366
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 44
+        width: 83
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_367
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 44
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_368
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 45
+        width: 86
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_369
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 49
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_370
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 49
+        width: 65
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_371
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 58
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_372
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 58
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_373
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 57
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_374
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 55
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_375
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 47
+        width: 65
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChunLi_376
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 47
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
