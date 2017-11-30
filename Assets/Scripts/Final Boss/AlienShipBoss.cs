@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public enum MovementState
@@ -136,7 +137,7 @@ public class AlienShipBoss : BossEnemy {
                 move.Set(centerX - transform.position.x, centerY - transform.position.y, 0f);
                 break;
         }
-        transform.position = transform.position + (move.normalized * Time.deltaTime * 2);
+        transform.position = transform.position + (move.normalized * Time.deltaTime * 4);
     }
 
     void UpdateAnimator()
@@ -225,4 +226,11 @@ public class AlienShipBoss : BossEnemy {
             Destroy(col.gameObject);
         }
     }
+	override public void Die()
+	{
+        print("Roll credits");
+		Destroy(gameObject);
+		Instantiate(deathPrefab, transform.position, Quaternion.identity);
+        SceneManager.LoadScene("Credits");
+	}
 }
