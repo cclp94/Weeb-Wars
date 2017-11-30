@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour { 
     [SerializeField]
-    float hp = 1;
+    public float hp = 1;
     [SerializeField]
     GameObject deathPrefab;
 
@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour {
         }
     }
 
-    public void TakeHealth(float dam)
+    virtual public void TakeHealth(float dam)
     {
         hp -= dam;
         if (hp <= 0)

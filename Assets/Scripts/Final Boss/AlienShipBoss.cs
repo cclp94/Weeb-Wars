@@ -2,7 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AlienShipBoss : Enemy {
+public enum MovementState
+{
+    LEFT,
+    RIGHT,
+    UP,
+    DOWN,
+    CENTER,
+}
+
+public class AlienShipBoss : BossEnemy {
 
     public float mTurnTime;
     public float mShootTime;
@@ -17,8 +26,17 @@ public class AlienShipBoss : Enemy {
     private int visibleIndex;
     private List<ShipWeakSpot> weakSpots;
     private Animator mAnimator;
+    private MovementState movementState;
+
+    // Center Position
+    public Transform mostLeft;
+    public Transform mostRight;
+    public Transform mostUp;
+    public Transform mostDown;
+
 	// Use this for initialization
 	void Start () {
+        movementState = MovementState.CENTER;
         mAnimator = GetComponent<Animator>();
         lastTurnTime = Time.time;
         lastShotTime = Time.time;
@@ -31,6 +49,7 @@ public class AlienShipBoss : Enemy {
         SetVisibleWeakSpots();
     }
     int shotCounter = 0;
+    bool mActive;
 	// Update is called once per frame
 	void Update () {
         // Check if all weak spots destroyed
@@ -48,20 +67,76 @@ public class AlienShipBoss : Enemy {
         if (Time.time - lastShotTime >= mShootTime)
         {
             Shoot();
+            mActive = true;
+            shotCounter++;
             lastShotTime = Time.time;
         }
-
-        // Movements
-        if (!isCrazyMode)
+        if (!damagable && mActive)
         {
+            if (!isCrazyMode)
+            {
+                Move();
+            }
+            else
+            {
 
+            }
         }
-        else
-        {
-
-        }
+        
         UpdateAnimator();
 	}
+
+    void Move()
+    {
+        Vector3 move = Vector3.zero;
+        float movementRadius = (mCollider.radius + 1);
+        switch (movementState)
+        {
+            case MovementState.LEFT:
+                if (transform.position.x - movementRadius <= mostLeft.position.x)
+                {
+                    print("Moving Down");
+                    movementState = MovementState.DOWN;
+                }
+                move.Set(mostLeft.position.x - transform.position.x, 0f, 0f);
+                break;
+            case MovementState.RIGHT:
+                if (transform.position.x + movementRadius >= mostRight.position.x)
+                {
+                    print("Moving Up");
+                    movementState = MovementState.UP;
+                }
+                move.Set(mostRight.position.x - transform.position.x, 0f, 0f);
+                break;
+            case MovementState.UP:
+                if (transform.position.y + movementRadius >= mostUp.position.y)
+                {
+                    print("Moving Left");
+                    movementState = MovementState.LEFT;
+                }
+                move.Set(0f, mostUp.position.y - transform.position.y, 0f);
+                break;
+            case MovementState.DOWN:
+                if (transform.position.y - movementRadius <= mostDown.position.y)
+                {
+                    print("Moving Center");
+                    movementState = MovementState.CENTER;
+                }
+                move.Set(0f, mostDown.position.y - transform.position.y, 0f);
+                break;
+            case MovementState.CENTER:
+                float centerX = mostLeft.position.x + (mostRight.position.x - mostLeft.position.x) / 2.0f;
+                float centerY = mostDown.position.y + (mostUp.position.y - mostDown.position.y) / 2.0f;
+                if (Mathf.Round(transform.position.x) == Mathf.Round(centerX) || Mathf.Round(transform.position.y) == Mathf.Round(centerY))
+                {
+                    print("Moving Right");
+                    movementState = MovementState.RIGHT;
+                }
+                move.Set(centerX - transform.position.x, centerY - transform.position.y, 0f);
+                break;
+        }
+        transform.position = transform.position + (move.normalized * Time.deltaTime * 2);
+    }
 
     void UpdateAnimator()
     {
