@@ -32,21 +32,23 @@ public class HPBar : MonoBehaviour
         }
     }
 
-    public void DeductHealth(int x)
+    public void HPChange(int currentHP, int initialHP)
     {
-
-        for(int i = 0; i < x; i++)
+        mIndex = (currentHP * mMaxHealth) / initialHP;
+        print(mIndex);
+        if(mIndex <= 0)
         {
-            if (mIndex >= 0)
-            {
-                mFilled[mIndex].enabled = false;
-                mIndex--;
-            }
-            else
-            { 
-                mWeeb.Die ();
-                break;
-            }
+            mWeeb.Die();
+            return;
+        }
+        UpdateHealth();
+    }
+
+    public void UpdateHealth()
+    {
+        for(int i =0; i < mMaxHealth; i++)
+        {
+            mFilled[i].enabled = (i <= mIndex) ? true : false;
         }
     }
 }

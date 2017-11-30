@@ -17,6 +17,8 @@ public class WeebPlayer : MonoBehaviour
     GameObject mDustParticleEmitter;
     [SerializeField]
 	HPBar life;
+    [SerializeField]
+    public int mHP;
 
     // Animator booleans
     bool mRunning;
@@ -48,8 +50,11 @@ public class WeebPlayer : MonoBehaviour
     AudioSource mDashSound;
     AudioSource mJumpSound;
 
+    private int initialHP;
+
     void Start ()
     {
+        initialHP = mHP;
         // Get references to other components and game objects
         mAnimator = GetComponent<Animator>();
         mRigidBody2D = GetComponent<Rigidbody2D>();
@@ -214,13 +219,15 @@ public class WeebPlayer : MonoBehaviour
     {
         if(!mInvincible)
         {
+            mHP -= dmg;
+            life.HPChange(mHP, initialHP);
             Vector2 forceDirection = new Vector2(-mFacingDirection.x, 1.0f) * kDamagePushForce;
             mRigidBody2D.velocity = Vector2.zero;
             mRigidBody2D.AddForce(forceDirection, ForceMode2D.Impulse);
             mStunned = true;
             mInvincible = true;
             mTakeDamageSound.Play ();
-            life.DeductHealth(dmg);
+            
         }
     }
 
