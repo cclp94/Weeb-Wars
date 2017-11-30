@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -276,7 +276,8 @@ public class WeebPlayer : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        
+        if (col.gameObject.tag == "Lava")
+            Die();
     }
 
     void OnCollisionExit2D(Collision2D col)
