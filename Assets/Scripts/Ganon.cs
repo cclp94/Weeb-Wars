@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ganon : Enemy
+public class Ganon : BossEnemy
 {
 
     [SerializeField]
@@ -21,10 +21,17 @@ public class Ganon : Enemy
     float distance;
     Vector2 facingDirection;
 
-    [SerializeField]
-    bool flyDir = true;
+    int flyDir = 0;
+    float comboTimer;
+    float idleTimer;
 
-    float attackTimer;
+    int cAttacks;
+    bool combo;
+
+    bool engaging = true;
+    bool wounded = false;
+
+    Vector2 blastDir = new Vector2(2.0f, -1.0f);
 
     public AudioClip damage;
     private AudioSource source;
@@ -34,15 +41,17 @@ public class Ganon : Enemy
     {
         gAnimator = GetComponent<Animator>();
         source = GetComponent<AudioSource>();
+        engaging = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        attackTimer += Time.deltaTime;
-        //UpdateAnimator();
+        comboTimer += Time.deltaTime;
+        idleTimer += Time.deltaTime;
         distance = Vector3.Distance(mTarget.position, transform.position);
 
+        // Sprite faces player
         if (mTarget.position.x > transform.position.x)
         {
             facingDirection = Vector2.right;
@@ -55,55 +64,92 @@ public class Ganon : Enemy
         }
 
         hit = false;
+        attacking = false;
 
-        if (distance < 6.0f)
+        // At half health
+        //if (hp == 20)
+        //{
+        //    wounded = true;
+        //}
+        if (wounded)
         {
-            if (attackTimer > 2)
+            if (blastDir.x < -2.0)
             {
+                wounded = false;
+            }
+            else if (Mathf.Abs(transform.position.x - mTarget.position.x) > 0.5f && !combo)
+            {
+                Vector3 direction = new Vector3(mTarget.position.x, mTarget.position.y + 6.0f, 0.0f);
+                transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
+            }
+            else combo = true;
+
+            if (comboTimer > 0.15 && combo)
+            {
+                attacking = true;
                 flying = false;
-                attackTimer = 0;
-                attack();
+                UpdateAnimator();
+
+                GameObject kB = Instantiate(kiBlast, transform.position, Quaternion.identity) as GameObject;
+                KiBlast blast = kB.GetComponent<KiBlast>();
+                blastDir.x -= 0.3f;
+
+                blast.setDirection(blastDir.normalized);
+                comboTimer = 0;
             }
-            else if (flyDir)
-            {
-                flying = true;
-                if (this.transform.position.x - mTarget.position.x > 0)
-                {
-                    Vector2 direction = new Vector2(-1.0f, 0.5f);
-                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
-                }
-                else
-                {
-                    Vector2 direction = new Vector2(-1.0f, -0.5f);
-                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
-                }
-                if (transform.position.x - mTarget.position.x < -5.5f) flyDir = false;
-            }
-            else
-            {
-                flying = true;
-                if (this.transform.position.x - mTarget.position.x < 0)
-                {
-                    Vector2 direction = new Vector2(1.0f, 0.5f);
-                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
-                }
-                else
-                {
-                    Vector2 direction = new Vector2(1.0f, -0.5f);
-                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
-                }
-                if (this.transform.position.x - mTarget.position.x > 5.5f) flyDir = true;
-            }
-        }
-        else //*/ 
-        if ((distance < 12.0f) && (distance > 6.0f))
-        {
-            follow();
         }
         else
         {
-            attacking = false;
-            flying = false;
+            if (distance > 8) follow();
+            else if (combo && comboTimer > 0.4)
+            {
+                flying = false;
+                attack();
+                cAttacks++;
+                comboTimer = 0;
+                if (cAttacks > 2)
+                {
+                    cAttacks = 0;
+                    combo = false;
+                    flyDir = (flyDir + 1) % 4;
+                }
+            }
+            else if (flyDir == 0)
+            {
+                if (transform.position.y - mTarget.position.y > 5)
+                    combo = true;
+                else
+                    transform.Translate(Vector3.up * mFollowSpeed * Time.deltaTime, Space.World);
+            }
+            else if (flyDir == 1)
+            {
+                if (transform.position.y - mTarget.position.y < 2.5)
+                    combo = true;
+                else
+                {
+                    Vector3 direction = new Vector3(-2.0f, -1.0f, 0.0f);
+                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
+                }
+            }
+            else if (flyDir == 2)
+            {
+                if (transform.position.y - mTarget.position.y > 5)
+                    combo = true;
+                else
+                    transform.Translate(Vector3.up * mFollowSpeed * Time.deltaTime, Space.World);
+            }
+            else
+            {
+                if (transform.position.y - mTarget.position.y < 2.5)
+                    combo = true;
+                else
+                {
+                    Vector3 direction = new Vector3(2.0f, -1.0f, 0.0f);
+                    transform.Translate(direction.normalized * mFollowSpeed * Time.deltaTime, Space.World);
+                }
+            }
+
+            if (distance > 7.0) engaging = false;
         }
 
     }
@@ -137,6 +183,8 @@ public class Ganon : Enemy
 
         GameObject kB = Instantiate(kiBlast, transform.position, Quaternion.identity) as GameObject;
         KiBlast blast = kB.GetComponent<KiBlast>();
+        blast.bSpeed = 7;
+        kB.GetComponent<TimedExpiration>().mExpirationTime = 5;
         Vector2 bDirection = mTarget.position - transform.position;
         bDirection.Normalize();
 
@@ -154,6 +202,7 @@ public class Ganon : Enemy
             UpdateAnimator();
 
             TakeHealth(4);
+            if (hp == 20) wounded = true;
             Destroy(col.gameObject);
             source.PlayOneShot(damage, 1F);
         }
