@@ -47,6 +47,7 @@ public class AlienShipBoss : BossEnemy {
         CreateWeakSpots();
         visibleIndex = 0;
         SetVisibleWeakSpots();
+        Activate();
     }
     int shotCounter = 0;
     bool mActive;

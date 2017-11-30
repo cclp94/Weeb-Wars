@@ -32,7 +32,7 @@ public class TitanBossFightTrigger : MonoBehaviour {
             print("Here");
 			mCamera.GetComponent<AudioSource>().clip = fightSong;
 			mCamera.GetComponent<AudioSource>().Play();
-            titanBoss.SetActive(true);
+            titanBoss.GetComponent<Titan>().Activate();
             titanActive = true;
         }
 	}

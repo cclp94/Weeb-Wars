@@ -42,13 +42,12 @@ public class PauseMenu : MonoBehaviour {
             mGameOver.SetActive(true);
             mIsMenuOpen = true;
         }
+    }
 
-        if (GameObject.FindGameObjectWithTag("TitanHand") == null)
-        {
-            //Time.timeScale = 0;
-            mComplete.SetActive(true);
-            mIsMenuOpen = true;
-        }
+    public void CompleteLevel()
+    {
+        mComplete.SetActive(true);
+        mIsMenuOpen = true;
     }
    
 }
