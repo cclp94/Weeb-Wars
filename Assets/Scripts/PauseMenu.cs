@@ -6,12 +6,16 @@ public class PauseMenu : MonoBehaviour {
 
     [SerializeField]
     public GameObject mPausePanel;
+    public GameObject mGameOver;
+    public GameObject mComplete;
 
     private bool mIsMenuOpen;
 
     void Start()
     {
         mPausePanel.SetActive(false);
+        mGameOver.SetActive(false);
+        mComplete.SetActive(false);
     }
 	void Update()
     {
@@ -31,6 +35,19 @@ public class PauseMenu : MonoBehaviour {
                 mIsMenuOpen = true;
             }
         }
+
+        if (GameObject.FindGameObjectWithTag("Player") == null)
+        {
+            //Time.timeScale = 0;
+            mGameOver.SetActive(true);
+            mIsMenuOpen = true;
+        }
+    }
+
+    public void CompleteLevel()
+    {
+        mComplete.SetActive(true);
+        mIsMenuOpen = true;
     }
    
 }

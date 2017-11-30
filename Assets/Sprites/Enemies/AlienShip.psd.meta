@@ -1,15 +1,18 @@
 fileFormatVersion: 2
-guid: 2995eb7647e22c34d907f55b4d045915
-timeCreated: 1512052765
+guid: 8d0d843855593e14b8e3a3f312966e2b
+timeCreated: 1512026500
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hp-bar_0
-    21300002: hp-bar_1
-    21300004: hp-bar_2
-    21300006: hp-bar_3
-    21300008: hp-bar_4
-    21300010: hp-bar_5
+    21300000: AlienShip_0
+    21300002: AlienShip_1
+    21300004: AlienShip_2
+    21300006: AlienShip_3
+    21300008: AlienShip_4
+    21300010: AlienShip_5
+    21300012: AlienShip_6
+    21300014: AlienShip_7
+    21300016: AlienShip_8
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -36,7 +39,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: -1
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -47,11 +50,11 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -62,25 +65,25 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: WebGL
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -89,13 +92,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hp-bar_0
+      name: AlienShip_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 320
-        width: 65
-        height: 61
+        x: 44
+        y: 721
+        width: 85
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -103,13 +106,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hp-bar_1
+      name: AlienShip_1
       rect:
         serializedVersion: 2
-        x: 150
-        y: 325
-        width: 209
-        height: 36
+        x: 160
+        y: 721
+        width: 85
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,13 +120,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hp-bar_2
+      name: AlienShip_2
       rect:
         serializedVersion: 2
-        x: 106
-        y: 294
-        width: 16
-        height: 11
+        x: 276
+        y: 721
+        width: 85
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,13 +134,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hp-bar_3
+      name: AlienShip_3
       rect:
         serializedVersion: 2
-        x: 124
-        y: 294
-        width: 16
-        height: 11
+        x: 392
+        y: 721
+        width: 85
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,13 +148,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hp-bar_4
+      name: AlienShip_4
       rect:
         serializedVersion: 2
-        x: 142
-        y: 294
-        width: 16
-        height: 11
+        x: 520
+        y: 721
+        width: 85
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,13 +162,55 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hp-bar_5
+      name: AlienShip_5
       rect:
         serializedVersion: 2
-        x: 75
-        y: 244
-        width: 474
-        height: 21
+        x: 636
+        y: 721
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AlienShip_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 596
+        width: 85
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AlienShip_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 591
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AlienShip_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 591
+        width: 85
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class Titan : Enemy {
+public class Titan : BossEnemy {
 
     [SerializeField]
     GameObject rightHand;
@@ -74,7 +74,12 @@ public class Titan : Enemy {
 
     }
 
-    
+    override public void Activate()
+    {
+        base.Activate();
+    }
+
+
     override public void OnTriggerStay2D(Collider2D col)
     {
         /*if (col.gameObject.layer == LayerMask.NameToLayer("Player"))
