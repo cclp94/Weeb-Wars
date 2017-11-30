@@ -4,7 +4,7 @@ using System.Collections;
 public class TimedExpiration : MonoBehaviour
 {
     [SerializeField]
-    float mExpirationTime;
+    public float mExpirationTime;
     float mTimer;
 
     void Update ()

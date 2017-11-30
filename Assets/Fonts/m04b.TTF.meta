@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: dba858af8ad456840a7b9f8c89861245
+timeCreated: 1511915841
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: M04_FATAL FURY BLACK
+  fontNames:
+  - M04_FATAL FURY BLACK
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

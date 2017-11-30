@@ -1,0 +1,2089 @@
+fileFormatVersion: 2
+guid: 9b52b5ea09d17314099068bbe30a55f9
+timeCreated: 1511903642
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Pac-Man Sprites Transparant_0
+    21300002: Pac-Man Sprites Transparant_3
+    21300004: Pac-Man Sprites Transparant_4
+    21300006: Pac-Man Sprites Transparant_5
+    21300008: Pac-Man Sprites Transparant_6
+    21300010: Pac-Man Sprites Transparant_7
+    21300012: Pac-Man Sprites Transparant_8
+    21300014: Pac-Man Sprites Transparant_9
+    21300016: Pac-Man Sprites Transparant_10
+    21300018: Pac-Man Sprites Transparant_11
+    21300020: Pac-Man Sprites Transparant_12
+    21300022: Pac-Man Sprites Transparant_13
+    21300024: Pac-Man Sprites Transparant_14
+    21300026: Pac-Man Sprites Transparant_15
+    21300028: Pac-Man Sprites Transparant_16
+    21300030: Pac-Man Sprites Transparant_17
+    21300032: Pac-Man Sprites Transparant_18
+    21300034: Pac-Man Sprites Transparant_19
+    21300036: Pac-Man Sprites Transparant_20
+    21300038: Pac-Man Sprites Transparant_21
+    21300040: Pac-Man Sprites Transparant_22
+    21300042: Pac-Man Sprites Transparant_23
+    21300044: Pac-Man Sprites Transparant_24
+    21300046: Pac-Man Sprites Transparant_25
+    21300048: Pac-Man Sprites Transparant_26
+    21300050: Pac-Man Sprites Transparant_27
+    21300052: Pac-Man Sprites Transparant_28
+    21300054: Pac-Man Sprites Transparant_29
+    21300056: Pac-Man Sprites Transparant_30
+    21300058: Pac-Man Sprites Transparant_31
+    21300060: Pac-Man Sprites Transparant_32
+    21300062: Pac-Man Sprites Transparant_33
+    21300064: Pac-Man Sprites Transparant_34
+    21300066: Pac-Man Sprites Transparant_35
+    21300068: Pac-Man Sprites Transparant_36
+    21300070: Pac-Man Sprites Transparant_37
+    21300072: Pac-Man Sprites Transparant_38
+    21300074: Pac-Man Sprites Transparant_39
+    21300076: Pac-Man Sprites Transparant_40
+    21300078: Pac-Man Sprites Transparant_41
+    21300080: Pac-Man Sprites Transparant_42
+    21300082: Pac-Man Sprites Transparant_43
+    21300084: Pac-Man Sprites Transparant_44
+    21300086: Pac-Man Sprites Transparant_45
+    21300088: Pac-Man Sprites Transparant_46
+    21300090: Pac-Man Sprites Transparant_47
+    21300092: Pac-Man Sprites Transparant_48
+    21300094: Pac-Man Sprites Transparant_49
+    21300096: Pac-Man Sprites Transparant_50
+    21300098: Pac-Man Sprites Transparant_51
+    21300100: Pac-Man Sprites Transparant_52
+    21300102: Pac-Man Sprites Transparant_53
+    21300104: Pac-Man Sprites Transparant_54
+    21300106: Pac-Man Sprites Transparant_55
+    21300108: Pac-Man Sprites Transparant_56
+    21300110: Pac-Man Sprites Transparant_57
+    21300112: Pac-Man Sprites Transparant_58
+    21300114: Pac-Man Sprites Transparant_59
+    21300116: Pac-Man Sprites Transparant_60
+    21300118: Pac-Man Sprites Transparant_61
+    21300120: Pac-Man Sprites Transparant_64
+    21300122: Pac-Man Sprites Transparant_65
+    21300124: Pac-Man Sprites Transparant_66
+    21300126: Pac-Man Sprites Transparant_67
+    21300128: Pac-Man Sprites Transparant_68
+    21300130: Pac-Man Sprites Transparant_69
+    21300132: Pac-Man Sprites Transparant_70
+    21300134: Pac-Man Sprites Transparant_71
+    21300136: Pac-Man Sprites Transparant_72
+    21300138: Pac-Man Sprites Transparant_73
+    21300140: Pac-Man Sprites Transparant_74
+    21300142: Pac-Man Sprites Transparant_75
+    21300144: Pac-Man Sprites Transparant_76
+    21300146: Pac-Man Sprites Transparant_79
+    21300148: Pac-Man Sprites Transparant_80
+    21300150: Pac-Man Sprites Transparant_81
+    21300152: Pac-Man Sprites Transparant_82
+    21300154: Pac-Man Sprites Transparant_83
+    21300156: Pac-Man Sprites Transparant_84
+    21300158: Pac-Man Sprites Transparant_85
+    21300160: Pac-Man Sprites Transparant_86
+    21300162: Pac-Man Sprites Transparant_87
+    21300164: Pac-Man Sprites Transparant_88
+    21300166: Pac-Man Sprites Transparant_89
+    21300168: Pac-Man Sprites Transparant_92
+    21300170: Pac-Man Sprites Transparant_93
+    21300172: Pac-Man Sprites Transparant_94
+    21300174: Pac-Man Sprites Transparant_95
+    21300176: Pac-Man Sprites Transparant_96
+    21300178: Pac-Man Sprites Transparant_97
+    21300180: Pac-Man Sprites Transparant_98
+    21300182: Pac-Man Sprites Transparant_99
+    21300184: Pac-Man Sprites Transparant_100
+    21300186: Pac-Man Sprites Transparant_101
+    21300188: Pac-Man Sprites Transparant_102
+    21300190: Pac-Man Sprites Transparant_103
+    21300192: Pac-Man Sprites Transparant_104
+    21300194: Pac-Man Sprites Transparant_105
+    21300196: Pac-Man Sprites Transparant_106
+    21300198: Pac-Man Sprites Transparant_107
+    21300200: Pac-Man Sprites Transparant_108
+    21300202: Pac-Man Sprites Transparant_109
+    21300204: Pac-Man Sprites Transparant_110
+    21300206: Pac-Man Sprites Transparant_111
+    21300208: Pac-Man Sprites Transparant_112
+    21300210: Pac-Man Sprites Transparant_113
+    21300212: Pac-Man Sprites Transparant_114
+    21300214: Pac-Man Sprites Transparant_115
+    21300216: Pac-Man Sprites Transparant_116
+    21300218: Pac-Man Sprites Transparant_117
+    21300220: Pac-Man Sprites Transparant_118
+    21300222: Pac-Man Sprites Transparant_119
+    21300224: Pac-Man Sprites Transparant_120
+    21300226: Pac-Man Sprites Transparant_121
+    21300228: Pac-Man Sprites Transparant_122
+    21300230: Pac-Man Sprites Transparant_123
+    21300232: Pac-Man Sprites Transparant_124
+    21300234: Pac-Man Sprites Transparant_125
+    21300236: Pac-Man Sprites Transparant_126
+    21300238: Pac-Man Sprites Transparant_133
+    21300240: Pac-Man Sprites Transparant_134
+    21300242: Pac-Man Sprites Transparant_135
+    21300244: Pac-Man Sprites Transparant_136
+    21300246: Pac-Man Sprites Transparant_137
+    21300248: Pac-Man Sprites Transparant_138
+    21300250: Pac-Man Sprites Transparant_139
+    21300252: Pac-Man Sprites Transparant_140
+    21300254: Pac-Man Sprites Transparant_141
+    21300256: Pac-Man Sprites Transparant_1
+    21300258: Pac-Man Sprites Transparant_2
+    21300260: Pac-Man Sprites Transparant_62
+    21300262: Pac-Man Sprites Transparant_63
+    21300264: Pac-Man Sprites Transparant_77
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 224
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_4
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 234
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 234
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_6
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 234
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_7
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 236
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 236
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_9
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 236
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_10
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 236
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_11
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 235
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_12
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 234
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_13
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 233
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_14
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 233
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_15
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 232
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_16
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 218
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_17
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_18
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 200
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_19
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 200
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_20
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_21
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 219
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_22
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 202
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_23
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 202
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_24
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 190
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_25
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 187
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_26
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 186
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_27
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 186
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_28
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 186
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_29
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 186
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_30
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 185
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_31
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 186
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_32
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 185
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_33
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 185
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_34
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_35
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_36
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_37
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_38
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_39
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_40
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_41
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_42
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_43
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_44
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_45
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 169
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_46
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_47
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_48
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_49
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_50
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_51
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_52
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_53
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_54
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 159
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_55
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 159
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_56
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 159
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_57
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 159
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_58
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 161
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_59
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 161
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_60
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 158
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_61
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 158
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_64
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_65
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_66
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_67
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_68
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_69
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_70
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_71
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_72
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 121
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_73
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 136
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_74
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 136
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_75
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 136
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_76
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 136
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_79
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_80
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_81
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_82
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_83
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_84
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_85
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_86
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_87
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_88
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_89
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_92
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 108
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_93
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 108
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_94
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 108
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_95
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 108
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_96
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 108
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_97
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 108
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_98
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 108
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_99
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 108
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_100
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 108
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_101
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 108
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_102
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 108
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_103
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 108
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_104
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 105
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_105
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 105
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_106
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 93
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_107
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 93
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_108
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 93
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_109
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 93
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_110
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 93
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_111
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 93
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_112
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 93
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_113
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 93
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_114
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 93
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_115
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 93
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_116
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 93
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_117
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 93
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_118
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 93
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_119
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 93
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_120
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 89
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_121
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 89
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_122
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 89
+        width: 31
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_123
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 77
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_124
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 77
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_125
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 77
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_126
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 77
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_133
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 61
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_134
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 61
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_135
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 61
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_136
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 61
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_137
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 40
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_138
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 45
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_139
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 45
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_140
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 45
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_141
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 45
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_1
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 234
+        width: 1
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 233
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 67
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_62
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_63
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 116
+        width: 104
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pac-Man Sprites Transparant_77
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 116
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
