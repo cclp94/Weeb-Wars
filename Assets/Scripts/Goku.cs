@@ -53,11 +53,6 @@ public class Goku : Enemy
 
         hit = false;
 
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            attack();
-        }
-
         if (distance < 5.0f)
         {
             flying = false;

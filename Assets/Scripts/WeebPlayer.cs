@@ -68,6 +68,8 @@ public class WeebPlayer : MonoBehaviour
         }
         mFacingDirection = Vector2.right;
 
+        unlockWeaponUpgrade("Shield");
+
         // Get audio references
         AudioSource[] audioSources = GetComponents<AudioSource>();
         mLandingSound = audioSources[0];
