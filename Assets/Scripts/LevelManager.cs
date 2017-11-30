@@ -11,6 +11,12 @@ public class LevelManager : MonoBehaviour
         SceneManager.LoadScene(name);
     }
 
+    public void ReloadLevel()
+    {
+        string scene = SceneManager.GetActiveScene().name;
+        Time.timeScale = 1;
+        SceneManager.LoadScene(scene);
+    }
     public void QuitLevel()
     {
        
