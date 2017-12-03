@@ -28,7 +28,8 @@ public class Ganon : BossEnemy
     int cAttacks;
     bool combo;
 
-    bool engaging = true;
+    [SerializeField]
+    bool engaging = false;
     bool wounded = false;
 
     Vector2 blastDir = new Vector2(2.0f, -1.0f);
@@ -66,6 +67,8 @@ public class Ganon : BossEnemy
         hit = false;
         attacking = false;
 
+        if (!engaging && distance < 14) engaging = true;
+
         // At half health
         //if (hp == 20)
         //{
@@ -98,9 +101,9 @@ public class Ganon : BossEnemy
                 comboTimer = 0;
             }
         }
-        else
+        else if (engaging)
         {
-            if (distance > 8) follow();
+            if (distance > 8 && distance < 14) follow();
             else if (combo && comboTimer > 0.4)
             {
                 flying = false;
