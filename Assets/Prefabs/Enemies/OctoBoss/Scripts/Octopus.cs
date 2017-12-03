@@ -14,6 +14,8 @@ public class Octopus : MonoBehaviour {
     GameObject shieldLeft;
     [SerializeField]
     GameObject shieldRight;
+    [SerializeField]
+    GameObject shieldGun;
 
     float timer;
     float timerBall;
@@ -64,7 +66,7 @@ public class Octopus : MonoBehaviour {
     {
         if (col.tag == "DamagingBullet" && timerVuln < 0.0f)
         {
-            timerVuln = 2.0f;
+            timerVuln = 1.0f;
             TakeHealth(1);
             if (left)
             {
@@ -90,8 +92,11 @@ public class Octopus : MonoBehaviour {
 
     virtual public void Die()
     {
-        Destroy(gameObject);
         Instantiate(deathPrefab, transform.position, Quaternion.identity);
+        Instantiate(shieldGun, transform.position, Quaternion.identity);
+        Destroy(shieldRight);
+        Destroy(shieldLeft);
+        Destroy(gameObject);
     }
 
 }
