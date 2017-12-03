@@ -111,7 +111,7 @@ public class WeebPlayer : MonoBehaviour
             bool grounded = CheckGrounded();
             if (!mGrounded && grounded)
             {
-                mLandingSound.Play();
+                //mLandingSound.Play();
                 // Reset velocity
                 mRigidBody2D.velocity = Vector3.zero;
                 mRigidBody2D.angularVelocity = 0;
@@ -133,7 +133,7 @@ public class WeebPlayer : MonoBehaviour
             if (mGrounded && Input.GetButtonDown("Jump"))
             {
                 mRigidBody2D.AddForce(Vector2.up * mJumpForce, ForceMode2D.Impulse);
-                mJumpSound.Play();
+                //mJumpSound.Play();
                 weebJumpped = true;
                 if (mRunningSound.isPlaying)
                 {
@@ -146,10 +146,11 @@ public class WeebPlayer : MonoBehaviour
             {
                 if (mGrounded)
                 {
+                    print("Dashing");
                     mRigidBody2D.AddForce(GetFacingDirection() * 9, ForceMode2D.Impulse);
                     dashStartTime = Time.time;
                     mDashing = true;
-                    mDashSound.Play();
+                    //mDashSound.Play();
                     this.gameObject.layer = 31;
                 }
                 else
@@ -174,15 +175,15 @@ public class WeebPlayer : MonoBehaviour
 
             if (mRunning && mGrounded && !mDashing)
             {
-                if (!mRunningSound.isPlaying)
-                {
-                    mRunningSound.loop = true;
-                    mRunningSound.Play();
-                }
+                //if (!mRunningSound.isPlaying)
+                //{
+                //    mRunningSound.loop = true;
+                //    mRunningSound.Play();
+                //}
             }
             else
             {
-                mRunningSound.Stop();
+                //mRunningSound.Stop();
             }
 
         }

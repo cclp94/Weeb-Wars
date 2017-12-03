@@ -19,7 +19,7 @@ public class HorizontalMovingPlatform : MonoBehaviour {
 	void Start () {
         isMovingRight = true;
         originalX = transform.position.x;
-        print(originalX);
+        //print(originalX);
 	}
 
 	// Update is called once per frame

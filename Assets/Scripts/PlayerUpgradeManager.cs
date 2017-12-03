@@ -83,14 +83,14 @@ public class PlayerUpgradeManager : MonoBehaviour {
             InitComponents();
         GunUpgrade bullet = go.GetComponent<GunUpgrade>();
         allienGun.changeBulletType(go);
-        print(bullet.GetGunColor());
+        //print(bullet.GetGunColor());
         allienGun.SwapColor(bullet.GetGunColor());
         GameObject.FindGameObjectWithTag("WeaponTypeUI").GetComponent<SpriteRenderer>().sprite = bullet.GetWeaponIcon();
     }
 
     public void ChangeWeaponRight()
     {
-        int newSelection = mSelectedWeapon + 1;
+        int newSelection = (mSelectedWeapon + 1);
         if (newSelection >= mWeaponTypes.Count)
             newSelection = 0;
         if (mWeaponsAvailable[newSelection])
@@ -102,7 +102,7 @@ public class PlayerUpgradeManager : MonoBehaviour {
 
     public void ChangeWeaponLeft()
     {
-        int newSelection = mSelectedWeapon - 1;
+        int newSelection = (mSelectedWeapon - 1);
         if (newSelection < 0)
             newSelection = mWeaponTypes.Count - 1;
         if (mWeaponsAvailable[newSelection])

@@ -17,6 +17,7 @@ public class CameraFollow : MonoBehaviour
     bool facing = true;
 
     float smoothness = 2.0f;
+    float followSpeed = 4.0f;
     float stepOverThreshold = 0.1f;
 
     public bool outOfRange = false;
@@ -71,9 +72,9 @@ public class CameraFollow : MonoBehaviour
             }
             else
             {
-                Vector3 targetPosition = new Vector3(mTarget.position.x, mTarget.position.y + 1.0f, transform.position.z);
+                Vector3 targetPosition = new Vector3(mTarget.position.x, mTarget.position.y + 1.5f, transform.position.z);
 
-                transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
+                transform.position = Vector3.Lerp(transform.position, targetPosition, followSpeed * Time.deltaTime);
             }
         }
 

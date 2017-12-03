@@ -13,7 +13,7 @@ public class BossEnemy : Enemy {
 	// Use this for initialization
 	void Awake () {
         initialHp = base.hp;
-        print("Starting boss");
+        //print("Starting boss");
         hpCanvas = Instantiate(bossHPPrefab);
         hpCanvas.SetActive(false);
         hpCanvas.GetComponent<Canvas>().worldCamera = Camera.main;

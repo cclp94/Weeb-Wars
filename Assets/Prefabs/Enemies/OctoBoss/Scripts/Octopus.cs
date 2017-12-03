@@ -10,10 +10,10 @@ public class Octopus : MonoBehaviour {
     GameObject deathPrefab;
     [SerializeField]
     GameObject powerBall;
-    [SerializeField]
-    GameObject shieldLeft;
-    [SerializeField]
-    GameObject shieldRight;
+    //[SerializeField]
+    //GameObject shieldLeft;
+    //[SerializeField]
+    //GameObject shieldRight;
     [SerializeField]
     GameObject shieldGun;
 
@@ -30,7 +30,7 @@ public class Octopus : MonoBehaviour {
         timer = 0.0f;
         timerVuln = -1.0f;
         start = transform.parent.position;
-        shieldRight.SetActive(false);
+        //shieldRight.SetActive(false);
         left = true;
     }
 
@@ -68,17 +68,17 @@ public class Octopus : MonoBehaviour {
         {
             timerVuln = 1.0f;
             TakeHealth(1);
-            if (left)
-            {
-                shieldRight.SetActive(true);
-                shieldLeft.SetActive(false);
-                left = false;
-            }else if (!left)
-            {
-                shieldRight.SetActive(false);
-                shieldLeft.SetActive(true);
-                left = true;
-            }
+            //if (left)
+            //{
+            //    shieldRight.SetActive(true);
+            //    shieldLeft.SetActive(false);
+            //    left = false;
+            //}else if (!left)
+            //{
+            //    shieldRight.SetActive(false);
+            //    shieldLeft.SetActive(true);
+            //    left = true;
+            //}
             Destroy(col.gameObject);
         }
     }
@@ -94,8 +94,8 @@ public class Octopus : MonoBehaviour {
     {
         Instantiate(deathPrefab, transform.position, Quaternion.identity);
         Instantiate(shieldGun, transform.position, Quaternion.identity);
-        Destroy(shieldRight);
-        Destroy(shieldLeft);
+        //Destroy(shieldRight);
+        //Destroy(shieldLeft);
         Destroy(gameObject);
     }
 

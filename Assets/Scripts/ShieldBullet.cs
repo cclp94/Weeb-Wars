@@ -7,7 +7,7 @@ public class ShieldBullet : GunUpgrade {
     [SerializeField]
     GameObject lB;
 
-    float timer;
+    //float timer;
 
     private void Start()
     {
@@ -16,9 +16,9 @@ public class ShieldBullet : GunUpgrade {
 
     private void Update()
     {
-        timer += Time.deltaTime;
+        //timer += Time.deltaTime;
 
-        if (timer > 0.8) Destroy(this.gameObject);
+        //if (timer > 0.8) Destroy(this.gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D col)

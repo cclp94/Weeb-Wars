@@ -66,7 +66,9 @@ public class AllienGun : MonoBehaviour
             bDirection.Normalize();
             if (bDirection.x < 0 && facingDirection == Vector2.right || (bDirection.x > 0 && facingDirection == Vector2.left))
             {
-                bDirection = facingDirection;
+                if (bDirection.y > 0)
+                    bDirection = Vector2.up;
+                else bDirection = Vector2.down;
             }
             /*else if (bDirection.x > 0 && facingDirection == Vector2.left)
             {
