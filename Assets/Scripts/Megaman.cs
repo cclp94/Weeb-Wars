@@ -50,39 +50,41 @@ public class Megaman : Enemy {
         attackTimer += Time.deltaTime;
         jumpTimer += Time.deltaTime;
         damageTimer += Time.deltaTime;
-
-        if (mTarget.position.x > transform.position.x)
+        if (mTarget != null)
         {
-            facingDirection = Vector2.right;
-            GetComponent<SpriteRenderer>().flipX = false;
-        }
-        else
-        {
-            facingDirection = Vector2.left;
-            GetComponent<SpriteRenderer>().flipX = true;
-        }
-
-        if (damageTimer > 1) hit = false;
-        if (attackTimer > 0.3) shooting = false;
-
-        distance = Vector2.Distance(mTarget.position, this.transform.position);
-
-        if (distance < 12 && distance > 6 && !hit)
-        {
-            transform.Translate(facingDirection * followSpeed * Time.deltaTime, Space.World);
-            running = true;
-        }
-        if (distance < 8)
-        {
-            if (attackTimer > 2 && !hit)
+            if (mTarget.position.x > transform.position.x)
             {
-                shooting = true;
-                attackTimer = 0;
+                facingDirection = Vector2.right;
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else
+            {
+                facingDirection = Vector2.left;
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
 
-                GameObject mb = Instantiate(mBullet, transform.position, Quaternion.identity) as GameObject;
-                KiBlast blast = mb.GetComponent<KiBlast>();
-                mb.GetComponent<TimedExpiration>().mExpirationTime = 4;
-                blast.setDirection(facingDirection);
+            if (damageTimer > 1) hit = false;
+            if (attackTimer > 0.3) shooting = false;
+
+            distance = Vector2.Distance(mTarget.position, this.transform.position);
+
+            if (distance < 12 && distance > 6 && !hit)
+            {
+                transform.Translate(facingDirection * followSpeed * Time.deltaTime, Space.World);
+                running = true;
+            }
+            if (distance < 8)
+            {
+                if (attackTimer > 2 && !hit)
+                {
+                    shooting = true;
+                    attackTimer = 0;
+
+                    GameObject mb = Instantiate(mBullet, transform.position, Quaternion.identity) as GameObject;
+                    KiBlast blast = mb.GetComponent<KiBlast>();
+                    mb.GetComponent<TimedExpiration>().mExpirationTime = 4;
+                    blast.setDirection(facingDirection);
+                }
             }
         }
 

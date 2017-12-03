@@ -135,10 +135,10 @@ public class WeebPlayer : MonoBehaviour
                 mRigidBody2D.AddForce(Vector2.up * mJumpForce, ForceMode2D.Impulse);
                 //mJumpSound.Play();
                 weebJumpped = true;
-                if (mRunningSound.isPlaying)
-                {
-                    mRunningSound.Stop();
-                }
+                //if (mRunningSound.isPlaying)
+                //{
+                //    mRunningSound.Stop();
+                //}
                 //Instantiate(mDustParticleEmitter, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z), Quaternion.identity);
             }
 
@@ -158,7 +158,7 @@ public class WeebPlayer : MonoBehaviour
                     mRigidBody2D.AddForce(GetFacingDirection() * 4 + Vector2.up, ForceMode2D.Impulse);
                     dashStartTime = Time.time;
                     mDashing = true;
-                    mDashSound.Play();
+                    //mDashSound.Play();
                     this.gameObject.layer = 31;
                 }
             }
@@ -229,7 +229,7 @@ public class WeebPlayer : MonoBehaviour
             mRigidBody2D.AddForce(forceDirection, ForceMode2D.Impulse);
             mStunned = true;
             mInvincible = true;
-            mTakeDamageSound.Play ();
+            //mTakeDamageSound.Play ();
             
         }
     }
