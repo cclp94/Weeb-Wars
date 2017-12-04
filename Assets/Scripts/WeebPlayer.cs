@@ -1,4 +1,4 @@
-﻿﻿using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -67,9 +67,6 @@ public class WeebPlayer : MonoBehaviour
             mGroundCheckList.Add (g);
         }
         mFacingDirection = Vector2.right;
-
-        unlockWeaponUpgrade("Shield");
-
         // Get audio references
         AudioSource[] audioSources = GetComponents<AudioSource>();
         mLandingSound = audioSources[0];
