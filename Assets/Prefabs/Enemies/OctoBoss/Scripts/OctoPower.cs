@@ -12,6 +12,7 @@ public class OctoPower : MonoBehaviour {
         }else if (col.transform.tag == "Player")
         {
             col.gameObject.GetComponent<WeebPlayer>().TakeDamage(10);
+			Destroy (gameObject);
         }
     }
 
