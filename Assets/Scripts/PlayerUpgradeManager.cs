@@ -115,7 +115,8 @@ public class PlayerUpgradeManager : MonoBehaviour {
     public void unlockWeapon(string weapon)
     {
         int indexOfWeapon = mWeaponTypes.FindIndex(x => x.name == weapon);
-        mWeaponsAvailable[indexOfWeapon] = true;
+		if(indexOfWeapon != -1)
+        	mWeaponsAvailable[indexOfWeapon] = true;
     }
     float startBackIn5;
     public void goBackToLevelInFiveSeconds(){
