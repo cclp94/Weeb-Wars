@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShieldBullet : GunUpgrade {
+public class ShieldBullet : GunUpgrade
+{
 
     [SerializeField]
     GameObject lB;
@@ -26,7 +27,7 @@ public class ShieldBullet : GunUpgrade {
         if (col.tag == "EnemyBullet")
         {
             GameObject laser = Instantiate(lB, col.transform.position, Quaternion.identity) as GameObject;
-            
+
             Vector2 newDir = col.GetComponent<Rigidbody2D>().velocity.normalized;
             print(newDir);
             newDir *= -1.1f;
