@@ -172,4 +172,10 @@ public class Titan : BossEnemy {
         rightHand.transform.Translate(targetRight * Time.deltaTime * acceleration *(mIsScreaming ? 5.0f : 1.0f));
         leftHand.transform.Translate(targetLeft * Time.deltaTime * acceleration * (mIsScreaming ? 5.0f : 1.0f));
     }
+
+    public override void Die()
+    {
+        LevelManager.level1 = true;
+        base.Die();
+    }
 }
