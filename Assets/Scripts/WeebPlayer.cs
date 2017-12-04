@@ -111,7 +111,7 @@ public class WeebPlayer : MonoBehaviour
             bool grounded = CheckGrounded();
             if (!mGrounded && grounded)
             {
-                //mLandingSound.Play();
+                mLandingSound.Play();
                 // Reset velocity
                 mRigidBody2D.velocity = Vector3.zero;
                 mRigidBody2D.angularVelocity = 0;
@@ -133,13 +133,13 @@ public class WeebPlayer : MonoBehaviour
             if (mGrounded && Input.GetButtonDown("Jump"))
             {
                 mRigidBody2D.AddForce(Vector2.up * mJumpForce, ForceMode2D.Impulse);
-                //mJumpSound.Play();
+                mJumpSound.Play();
                 weebJumpped = true;
                 if (mRunningSound.isPlaying)
                 {
                     mRunningSound.Stop();
                 }
-                //Instantiate(mDustParticleEmitter, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z), Quaternion.identity);
+                //Instantiate(mDustParticleEmitter, new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z), Quaternion.identity);
             }
 
             if (Input.GetButtonDown("Dash") && Time.time - dashStartTime >= 1)
@@ -150,7 +150,7 @@ public class WeebPlayer : MonoBehaviour
                     mRigidBody2D.AddForce(GetFacingDirection() * 9, ForceMode2D.Impulse);
                     dashStartTime = Time.time;
                     mDashing = true;
-                    //mDashSound.Play();
+                    mDashSound.Play();
                     this.gameObject.layer = 31;
                 }
                 else
@@ -175,15 +175,15 @@ public class WeebPlayer : MonoBehaviour
 
             if (mRunning && mGrounded && !mDashing)
             {
-                //if (!mRunningSound.isPlaying)
-                //{
-                //    mRunningSound.loop = true;
-                //    mRunningSound.Play();
-                //}
+                if (!mRunningSound.isPlaying)
+                {
+                    mRunningSound.loop = true;
+                    mRunningSound.Play();
+                }
             }
             else
             {
-                //mRunningSound.Stop();
+                mRunningSound.Stop();
             }
 
         }
