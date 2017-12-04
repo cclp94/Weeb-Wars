@@ -8,7 +8,7 @@ public class OctoShieldGun : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
-            //col.gameObject.GetComponent<PlayerUpgradeManager>().unlockWeapon("Shield");
+			col.gameObject.GetComponent<WeebPlayer>().unlockWeaponUpgrade("Shield");
            Destroy(gameObject);
         }
     }
