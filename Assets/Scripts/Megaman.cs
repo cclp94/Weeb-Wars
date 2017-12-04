@@ -50,41 +50,39 @@ public class Megaman : Enemy {
         attackTimer += Time.deltaTime;
         jumpTimer += Time.deltaTime;
         damageTimer += Time.deltaTime;
-        if (mTarget != null)
+
+        if (mTarget.position.x > transform.position.x)
         {
-            if (mTarget.position.x > transform.position.x)
-            {
-                facingDirection = Vector2.right;
-                GetComponent<SpriteRenderer>().flipX = false;
-            }
-            else
-            {
-                facingDirection = Vector2.left;
-                GetComponent<SpriteRenderer>().flipX = true;
-            }
+            facingDirection = Vector2.right;
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else
+        {
+            facingDirection = Vector2.left;
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
 
-            if (damageTimer > 1) hit = false;
-            if (attackTimer > 0.3) shooting = false;
+        if (damageTimer > 1) hit = false;
+        if (attackTimer > 0.3) shooting = false;
 
-            distance = Vector2.Distance(mTarget.position, this.transform.position);
+        distance = Vector2.Distance(mTarget.position, this.transform.position);
 
-            if (distance < 12 && distance > 6 && !hit)
+        if (distance < 12 && distance > 6 && !hit)
+        {
+            transform.Translate(facingDirection * followSpeed * Time.deltaTime, Space.World);
+            running = true;
+        }
+        if (distance < 8)
+        {
+            if (attackTimer > 2 && !hit)
             {
-                transform.Translate(facingDirection * followSpeed * Time.deltaTime, Space.World);
-                running = true;
-            }
-            if (distance < 8)
-            {
-                if (attackTimer > 2 && !hit)
-                {
-                    shooting = true;
-                    attackTimer = 0;
+                shooting = true;
+                attackTimer = 0;
 
-                    GameObject mb = Instantiate(mBullet, transform.position, Quaternion.identity) as GameObject;
-                    KiBlast blast = mb.GetComponent<KiBlast>();
-                    mb.GetComponent<TimedExpiration>().mExpirationTime = 4;
-                    blast.setDirection(facingDirection);
-                }
+                GameObject mb = Instantiate(mBullet, transform.position, Quaternion.identity) as GameObject;
+                KiBlast blast = mb.GetComponent<KiBlast>();
+                mb.GetComponent<TimedExpiration>().mExpirationTime = 4;
+                blast.setDirection(facingDirection);
             }
         }
 
