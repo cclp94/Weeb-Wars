@@ -234,7 +234,7 @@ public class AlienShipBoss : BossEnemy {
 		Destroy(gameObject);
 		Instantiate(deathPrefab, transform.position, Quaternion.identity);
         hasDied = true;
-        GameObject.Find("EnDialog").GetComponent<DialogueTrigger>().TriggerDialogue();
+        GameObject.Find("EndDialog").GetComponent<DialogueTrigger>().TriggerDialogue();
         SceneManager.LoadScene("Credits");
 	}
 }
