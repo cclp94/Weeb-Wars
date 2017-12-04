@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: f516172f99bfcb44586ca92ffc0e0590
-timeCreated: 1512400429
+guid: acd6c0cb0f9bb4e469cc4d8d6285278d
+timeCreated: 1512074575
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Shield_0
-    21300002: Shield_1
+    21300000: ShieldGun_0
+    21300002: ShieldGun_1
+    21300004: ShieldGun_2
+    21300006: ShieldGun_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -32,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -77,13 +79,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shield_0
+      name: ShieldGun_0
       rect:
         serializedVersion: 2
-        x: 402
-        y: 45
-        width: 113
-        height: 426
+        x: 31
+        y: 226
+        width: 107
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -91,13 +93,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Shield_1
+      name: ShieldGun_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 516
-        height: 516
+        x: 34
+        y: 161
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShieldGun_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 92
+        width: 163
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShieldGun_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 16
+        width: 107
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
