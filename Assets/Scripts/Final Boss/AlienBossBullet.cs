@@ -4,23 +4,30 @@ using UnityEngine;
 
 public class AlienBossBullet : MonoBehaviour {
 
+    //[SerializeField]
+    //public float bSpeed;
+
     public float speed;
 
     private Vector2 direction;
+    //Rigidbody2D mRigidBody2D;
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+    {
+        //mRigidBody2D = GetComponent<Rigidbody2D>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         Vector3 v = (direction * speed * Time.deltaTime);
         transform.position = transform.position + v;
 	}
 
     public void SetDirection(Vector2 dir)
     {
+       // mRigidBody2D.velocity = bSpeed * dir;
         direction = dir;
     }
 

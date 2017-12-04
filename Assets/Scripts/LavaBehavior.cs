@@ -20,8 +20,12 @@ public class LavaBehavior : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(transform.position, player.transform.position) < 10f) {
-            trapEnclenched = true;
+        if (player != null)
+        {
+            if (Vector3.Distance(transform.position, player.transform.position) < 10f)
+            {
+                trapEnclenched = true;
+            }
         }
 
         if (!(transform.position == endPosition) && trapEnclenched)
