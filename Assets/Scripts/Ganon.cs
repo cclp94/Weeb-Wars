@@ -217,6 +217,7 @@ public class Ganon : BossEnemy
 
     public override void Activate()
     {
+        base.Activate();
         engaging = true;
     }
 }
