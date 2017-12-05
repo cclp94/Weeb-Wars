@@ -36,43 +36,45 @@ public class Goku : Enemy
     // Update is called once per frame
     void Update()
     {
-        attackTimer += Time.deltaTime;
-        //UpdateAnimator();
-        distance = Vector3.Distance(mTarget.position, transform.position);
-
-        if (mTarget.position.x > transform.position.x)
+        if(mTarget != null)
         {
-            facingDirection = Vector2.right;
-            GetComponent<SpriteRenderer>().flipX = false;
-        }
-        else
-        {
-            facingDirection = Vector2.left;
-            GetComponent<SpriteRenderer>().flipX = true;
-        }
+            attackTimer += Time.deltaTime;
+            //UpdateAnimator();
+            distance = Vector3.Distance(mTarget.position, transform.position);
 
-        hit = false;
-
-        if (distance < 5.0f)
-        {
-            flying = false;
-            if (attackTimer > 2)
+            if (mTarget.position.x > transform.position.x)
             {
-                attackTimer = 0;
-                attack();
+                facingDirection = Vector2.right;
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else
+            {
+                facingDirection = Vector2.left;
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+
+            hit = false;
+
+            if (distance < 5.0f)
+            {
+                flying = false;
+                if (attackTimer > 2)
+                {
+                    attackTimer = 0;
+                    attack();
+                }
+            }
+            else //*/ 
+            if ((distance < 10.0f) && (distance > 5.0f))
+            {
+                follow();
+            }
+            else
+            {
+                attacking = false;
+                flying = false;
             }
         }
-        else //*/ 
-        if ((distance < 10.0f) && (distance > 5.0f))
-        {
-            follow();
-        }
-        else
-        {
-            attacking = false;
-            flying = false;
-        }
-
     }
 
     private void UpdateAnimator()
