@@ -10,12 +10,11 @@ public class PlayerUpgradeManager : MonoBehaviour {
     [SerializeField]
     GameObject defaultGunUpgrade;
     [SerializeField]
-    LevelManager mLevelManager;
+    private List<GameObject> mWeaponTypes;
     private GameObject gun;
     private GameObject weaponTypeGameObject;
 
     private int mSelectedWeapon;
-    private List<GameObject> mWeaponTypes;
     private AllienGun allienGun;
     private bool[] mWeaponsAvailable;
 
@@ -74,7 +73,6 @@ public class PlayerUpgradeManager : MonoBehaviour {
         gun = GameObject.FindGameObjectWithTag("Gun");
         weaponTypeGameObject = GameObject.FindGameObjectWithTag("WeaponTypeUI");
         allienGun = gun.GetComponent<AllienGun>();
-        mWeaponTypes = Resources.FindObjectsOfTypeAll(typeof(GameObject)).Cast<GameObject>().Where(g => g.layer == 10).ToList();
     }
 
     void SelectWeapon(GameObject go)
