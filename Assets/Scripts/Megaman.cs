@@ -68,7 +68,7 @@ public class Megaman : Enemy {
 
             distance = Vector2.Distance(mTarget.position, this.transform.position);
 
-            if (distance < 12 && distance > 6 && !hit)
+            if (distance < 9 && distance > 6 && !hit)
             {
                 transform.Translate(facingDirection * followSpeed * Time.deltaTime, Space.World);
                 running = true;
